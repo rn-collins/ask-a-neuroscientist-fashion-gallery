@@ -1,0 +1,29 @@
+name: Rights or takedown request
+description: Request review of an asset, attribution, license, privacy, or rights concern.
+title: "Rights review: "
+labels: ["rights-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "This report will be public. Do not post private contact details, identity documents, contracts, medical information, or other sensitive material. Identify the public record only; the repository owner can arrange a private follow-up if necessary."
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://ask-a-neuroscientist-fashion.vercel.app/...
+    validations:
+      required: true
+  - type: input
+    id: asset
+    attributes:
+      label: Asset or passage
+      description: Give the title, caption, accession number, or exact text that should be reviewed.
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Basis for review
+      description: Explain the rights, attribution, privacy, or reuse concern without sharing sensitive information.
+    validations:
+      required: true

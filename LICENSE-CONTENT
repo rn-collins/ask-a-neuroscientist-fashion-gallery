@@ -1,0 +1,16 @@
+Copyright (c) 2026 RN Collins. All rights reserved.
+
+The original text, data and graphics in this repository (the page text of the
+exhibitions, tools and reference pages, the claim and object records, the files
+in data/ and production/, and the evidence graphic in media/) are the work of
+RN Collins and are not licensed for reuse or redistribution.
+
+You may quote short passages with credit and a link to the live site:
+https://ask-a-neuroscientist-fashion.vercel.app
+
+Third-party material (Metropolitan Museum of Art Open Access objects, Wikimedia
+Commons photographs, embedded videos, fonts and cited research) keeps its own
+terms. See NOTICE.
+
+The code (app.js, *.css, *.mjs, scripts/, workflows and vercel.json) is
+licensed separately under the MIT License. See LICENSE.

@@ -1,0 +1,15 @@
+{
+  "name": "ask-a-neuroscientist-fashion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ask a Neuroscientist x Fashion: a rights-first, evidence-bound exhibition on the neuroscience of dress. Public edition.",
+  "license": "MIT AND CC-BY-4.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --check app.js && node --check data.js && node scripts/public-tests.mjs",
+    "build:public": "node scripts/build-public.mjs && node scripts/verify-public.mjs",
+    "build": "npm run build:public"
+  }
+}

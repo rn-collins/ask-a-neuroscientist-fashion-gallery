@@ -1,0 +1,25 @@
+{
+  "note": "Pieces not yet released are counted and not listed. Their ids, titles, text and media stay in the private source repository and are published on their release day.",
+  "asOf": "2026-10-13",
+  "timezone": "Pacific/Honolulu",
+  "total": 132,
+  "released": 13,
+  "withheld": 119,
+  "withheldByType": {
+    "Beehiiv newsletter edition": 7,
+    "Instagram carousel": 14,
+    "long-form film and audio episode (script)": 7,
+    "Pinterest pin": 35,
+    "production kit and download bundle": 7,
+    "vertical short video (script)": 49
+  },
+  "withheldByPackage": {
+    "AAN-F-001": 17,
+    "AAN-F-002": 17,
+    "AAN-F-003": 17,
+    "AAN-F-004": 17,
+    "AAN-F-005": 17,
+    "AAN-F-006": 17,
+    "AAN-F-007": 17
+  }
+}

@@ -1,0 +1,29 @@
+name: Correction request
+description: Report a factual, attribution, provenance, accessibility, or link error.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: "This report will be public. Do not include personal, confidential, medical, or otherwise sensitive information."
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://ask-a-neuroscientist-fashion.vercel.app/...
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be corrected?
+      description: Identify the exact passage, credit, asset, or behavior and the proposed correction.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source
+      description: Link to the most authoritative source available and briefly explain what it establishes.
+    validations:
+      required: true

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ask-a-neuroscientist-fashion.vercel.app/sitemap.xml

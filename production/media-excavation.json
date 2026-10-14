@@ -1,0 +1,3627 @@
+{
+  "schemaVersion": "1.2",
+  "asOf": "2026-09-10",
+  "statement": "Five-wave bounded excavation: registry queries, direct item/category/collection traversal and two future-discovery passes. Qualified, installed, duplicate, rejected and blocked results are all retained. Never a claim to every relevant item online.",
+  "rightsTaxonomy": [
+    {
+      "label": "Public domain / CC0",
+      "siteUse": "Store, display and download after work-level verification.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "CC BY",
+      "siteUse": "Attribute creator, source, license and modifications.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "CC BY-SA",
+      "siteUse": "Attribute and apply compatible share-alike treatment.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Authorized embed",
+      "siteUse": "Use the official player; extract nothing.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Link-only",
+      "siteUse": "Describe and link; do not reproduce.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Permission required",
+      "siteUse": "Hold until written permission.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Fair-use candidate",
+      "siteUse": "Hold for case-specific legal/editorial review.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Rejected",
+      "siteUse": "Do not publish; preserve the reason.",
+      "proof": "Exact work-level rights source required."
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "SURF-MET",
+      "name": "The Met Open Access",
+      "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-LOC",
+      "name": "Library of Congress Fashion",
+      "url": "https://www.loc.gov/free-to-use/fashion/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-SI",
+      "name": "Smithsonian Open Access",
+      "url": "https://www.si.edu/openaccess",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-EUR",
+      "name": "Europeana",
+      "url": "https://www.europeana.eu/en",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-COM",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-IA",
+      "name": "Internet Archive",
+      "url": "https://archive.org/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-PMC",
+      "name": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-PM",
+      "name": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-DOI",
+      "name": "Crossref / DOI publishers",
+      "url": "https://www.crossref.org/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-WHO",
+      "name": "World Health Organization",
+      "url": "https://www.who.int/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-CDC",
+      "name": "CDC / NIOSH",
+      "url": "https://www.cdc.gov/niosh/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-BFC",
+      "name": "British Fashion Council official channel",
+      "url": "https://www.youtube.com/@BritishFashionCouncil",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-GH",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-OSF",
+      "name": "Open Science Framework",
+      "url": "https://osf.io/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-UNI",
+      "name": "University repositories",
+      "url": "https://www.base-search.net/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-WEL",
+      "name": "Wellcome Collection",
+      "url": "https://wellcomecollection.org/works",
+      "method": "Named collection and IIIF searches; item-level rights statement controls."
+    },
+    {
+      "id": "SURF-APA",
+      "name": "American Psychological Association",
+      "url": "https://www.apa.org/news/podcasts/speaking-of-psychology",
+      "method": "Official audio and transcript search; link or official player only."
+    },
+    {
+      "id": "SURF-NCBI",
+      "name": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "method": "Open educational chapters; chapter-level copyright statement controls."
+    },
+    {
+      "id": "SURF-MIT",
+      "name": "MIT News / OpenCourseWare",
+      "url": "https://news.mit.edu/",
+      "method": "Official research explanation and audiovisual search; link-only unless separately licensed."
+    },
+    {
+      "id": "SURF-FRONT",
+      "name": "Frontiers",
+      "url": "https://www.frontiersin.org/",
+      "method": "Article and figure search; exact article Creative Commons statement recorded."
+    },
+    {
+      "id": "SURF-MDPI",
+      "name": "MDPI",
+      "url": "https://www.mdpi.com/",
+      "method": "Open-access article/figure search; article-level CC BY statement recorded."
+    },
+    {
+      "id": "SURF-APA-OS",
+      "name": "APA PsycNet / open materials",
+      "url": "https://psycnet.apa.org/",
+      "method": "Bibliographic and open-material search; no reuse inferred from access."
+    }
+  ],
+  "packages": [
+    {
+      "id": "AAN-F-001",
+      "slug": "clothes-and-cognition",
+      "title": "Can clothes change how you think?",
+      "prefixes": [
+        "C"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "Can clothes change how you think? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Can clothes change how you think?",
+        "Can clothes change how you think? Wikimedia Commons license",
+        "Can clothes change how you think? official video audio educational interactive",
+        "Can clothes change how you think? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R01",
+        "R08",
+        "R09",
+        "R13",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R57",
+        "R58",
+        "R59",
+        "R60",
+        "R86"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18",
+          "R19",
+          "R20"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 5,
+        "duplicateOrRejectedCount": 1,
+        "zeroQualifiedSurfaces": [
+          "Europeana: no item-level neuroscience/cognition asset qualified",
+          "Internet Archive: results were duplicate historical dress texts or lacked a clear rights fit",
+          "WHO/CDC: no package-specific clothing-cognition resource"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R57",
+          "R58",
+          "R59",
+          "R60"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 4,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 0,
+        "concreteBlockers": [
+          "Internet Archive: no rights-marked cognition/clothing audiovisual item qualified",
+          "Official video channels: no direct clothing-cognition film with cleared third-party media",
+          "Europeana API/media delivery: public-domain item record found, but direct file URL was not exposed"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    },
+    {
+      "id": "AAN-F-002",
+      "slug": "outfit-as-armor",
+      "title": "Why can the right outfit feel like armor?",
+      "prefixes": [
+        "A"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "Why can the right outfit feel like armor? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why can the right outfit feel like armor?",
+        "Why can the right outfit feel like armor? Wikimedia Commons license",
+        "Why can the right outfit feel like armor? official video audio educational interactive",
+        "Why can the right outfit feel like armor? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R02",
+        "R08",
+        "R09",
+        "R21",
+        "R22",
+        "R23",
+        "R87",
+        "R24",
+        "R25",
+        "R26",
+        "R61",
+        "R62",
+        "R63",
+        "R64"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R21",
+          "R22",
+          "R23",
+          "R24",
+          "R25",
+          "R26"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 6,
+        "duplicateOrRejectedCount": 0,
+        "zeroQualifiedSurfaces": [
+          "Europeana: no item-level body-boundary asset qualified",
+          "NIH/PMC: no direct outfit-as-armor intervention found",
+          "GitHub: no editorially relevant licensed interactive found"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R61",
+          "R62",
+          "R63",
+          "R64"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 4,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 0,
+        "concreteBlockers": [
+          "PMC: no direct outfit-as-armor intervention identified",
+          "GitHub: no exact-fit licensed body-boundary interactive",
+          "Internet Archive: no rights-clear audiovisual item improved on museum records"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    },
+    {
+      "id": "AAN-F-003",
+      "slug": "fabric-sensory-world",
+      "title": "Why can one fabric feel unbearable?",
+      "prefixes": [
+        "T"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "Why can one fabric feel unbearable? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why can one fabric feel unbearable?",
+        "Why can one fabric feel unbearable? Wikimedia Commons license",
+        "Why can one fabric feel unbearable? official video audio educational interactive",
+        "Why can one fabric feel unbearable? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R03",
+        "R08",
+        "R09",
+        "R14",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R31",
+        "R88",
+        "R93",
+        "R32",
+        "R65",
+        "R66",
+        "R67",
+        "R68",
+        "R95",
+        "R96"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R27",
+          "R28",
+          "R29",
+          "R30",
+          "R31",
+          "R32"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 6,
+        "duplicateOrRejectedCount": 0,
+        "zeroQualifiedSurfaces": [
+          "Europeana: no item-level textile-touch asset improved on installed objects",
+          "Wellcome: no work-level image with direct textile-sensory evidence qualified",
+          "Official audiovisual: MIT material remained link-only"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R65",
+          "R66",
+          "R67",
+          "R68"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 2,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "Europeana: no exact textile-touch item with direct file URL and stronger fit",
+          "Internet Archive: no rights-clear tactile-textile audiovisual item qualified",
+          "Official podcasts: no direct fabric hypersensitivity episode found"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    },
+    {
+      "id": "AAN-F-004",
+      "slug": "fashion-nostalgia",
+      "title": "Why can fashion nostalgia feel so powerful?",
+      "prefixes": [
+        "N"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "Why can fashion nostalgia feel so powerful? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why can fashion nostalgia feel so powerful?",
+        "Why can fashion nostalgia feel so powerful? Wikimedia Commons license",
+        "Why can fashion nostalgia feel so powerful? official video audio educational interactive",
+        "Why can fashion nostalgia feel so powerful? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R04",
+        "R08",
+        "R09",
+        "R14",
+        "R33",
+        "R34",
+        "R89",
+        "R94",
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R69",
+        "R70",
+        "R71",
+        "R72",
+        "R85"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R33",
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 5,
+        "duplicateOrRejectedCount": 1,
+        "zeroQualifiedSurfaces": [
+          "PMC: no clothing-specific neural nostalgia study found",
+          "GitHub: no maintained, licensed fashion-memory interactive qualified",
+          "Wellcome: no item-level work with both direct relevance and clear reusable media"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R69",
+          "R70",
+          "R71",
+          "R72",
+          "R85"
+        ],
+        "newCandidateCount": 5,
+        "qualifiedCount": 4,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "GitHub: no maintained fashion-memory interactive with a clear license",
+          "Internet Archive: rights heterogeneity blocked installation",
+          "PMC: no fashion-specific neural nostalgia experiment located"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    },
+    {
+      "id": "AAN-F-005",
+      "slug": "fashion-week-nervous-system",
+      "title": "What does Fashion Week do to the nervous system?",
+      "prefixes": [
+        "F"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "What does Fashion Week do to the nervous system? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov What does Fashion Week do to the nervous system?",
+        "What does Fashion Week do to the nervous system? Wikimedia Commons license",
+        "What does Fashion Week do to the nervous system? official video audio educational interactive",
+        "What does Fashion Week do to the nervous system? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R05",
+        "R10",
+        "R11",
+        "R39",
+        "R40",
+        "R41",
+        "R90",
+        "R42",
+        "R43",
+        "R44",
+        "R73",
+        "R74",
+        "R75",
+        "R76"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 5,
+        "duplicateOrRejectedCount": 1,
+        "zeroQualifiedSurfaces": [
+          "Europeana: no Fashion Week nervous-system item qualified",
+          "Internet Archive: no rights-clear event recording qualified",
+          "GitHub: no validated Fashion Week physiology dataset/tool found"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R73",
+          "R74",
+          "R75",
+          "R76"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 2,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 2,
+        "concreteBlockers": [
+          "Europeana: no Fashion Week physiology item found",
+          "GitHub: no validated fashion-event physiology dataset",
+          "Official BFC videos: soundtrack/third-party rights blocked extraction or embed selection"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    },
+    {
+      "id": "AAN-F-006",
+      "slug": "runway-soundtracks",
+      "title": "Why are runway soundtracks so powerful?",
+      "prefixes": [
+        "S"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "Why are runway soundtracks so powerful? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why are runway soundtracks so powerful?",
+        "Why are runway soundtracks so powerful? Wikimedia Commons license",
+        "Why are runway soundtracks so powerful? official video audio educational interactive",
+        "Why are runway soundtracks so powerful? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R06",
+        "R10",
+        "R11",
+        "R45",
+        "R46",
+        "R47",
+        "R48",
+        "R49",
+        "R50",
+        "R91",
+        "R77",
+        "R78",
+        "R79",
+        "R80"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R45",
+          "R46",
+          "R47",
+          "R48",
+          "R49",
+          "R50"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 3,
+        "duplicateOrRejectedCount": 3,
+        "zeroQualifiedSurfaces": [
+          "Europeana: no runway-soundtrack item with usable audio rights qualified",
+          "Internet Archive: recordings lacked sufficiently clear track-level rights",
+          "Wikimedia: no audio with both runway provenance and editorial fit qualified"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R77",
+          "R78",
+          "R79",
+          "R80"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 2,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "Europeana: no reusable runway audio item identified",
+          "Internet Archive: exact provenance plus audio rights not established",
+          "Official fashion channels: music rights prevented selecting an authorized embed"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    },
+    {
+      "id": "AAN-F-007",
+      "slug": "uniforms-and-social-perception",
+      "title": "What do uniforms do to wearer and observer?",
+      "prefixes": [
+        "U"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI",
+        "SURF-WEL",
+        "SURF-APA",
+        "SURF-NCBI",
+        "SURF-MIT",
+        "SURF-FRONT",
+        "SURF-MDPI",
+        "SURF-APA-OS"
+      ],
+      "queryFamilies": [
+        "What do uniforms do to wearer and observer? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov What do uniforms do to wearer and observer?",
+        "What do uniforms do to wearer and observer? Wikimedia Commons license",
+        "What do uniforms do to wearer and observer? official video audio educational interactive",
+        "What do uniforms do to wearer and observer? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R07",
+        "R08",
+        "R12",
+        "R51",
+        "R52",
+        "R53",
+        "R54",
+        "R92",
+        "R55",
+        "R56",
+        "R81",
+        "R82",
+        "R83",
+        "R84",
+        "R97",
+        "R98"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
+      "secondWave": {
+        "searched": "2026-09-07",
+        "newCandidateIds": [
+          "R51",
+          "R52",
+          "R53",
+          "R54",
+          "R55",
+          "R56"
+        ],
+        "newCandidateCount": 6,
+        "qualifiedCount": 5,
+        "duplicateOrRejectedCount": 1,
+        "zeroQualifiedSurfaces": [
+          "Europeana: no item-level uniform record improved on stronger institutional sources",
+          "Internet Archive: uniform films lacked sufficiently clear reuse rights",
+          "GitHub: no maintained uniform-perception tool with verified participant-safe method"
+        ],
+        "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R81",
+          "R82",
+          "R83",
+          "R84"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "GitHub: no participant-safe uniform-perception interactive qualified",
+          "Europeana item delivery: uniform topic surfaced, but exact file rights were not exposed",
+          "Internet Archive: no rights-clear uniform film improved on the Wellcome record"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "R01",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Direct replication of enclothed cognition",
+      "creator": "Burns et al.",
+      "date": "2019",
+      "institution": "Journal of Experimental Social Psychology",
+      "canonicalUrl": "https://doi.org/10.1016/j.jesp.2018.10.001",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "caption": "Direct replication of enclothed cognition",
+      "alt": "",
+      "relevance": "Replication boundary; figures not extracted.",
+      "disposition": "link-only",
+      "reason": "Replication boundary; figures not extracted.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R02",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Whatever Next and Close to My Self: The Transparent Senses and the Second Skin",
+      "creator": "Ciaunica et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology",
+      "canonicalUrl": "https://doi.org/10.3389/fpsyg.2021.613587",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "caption": "Whatever Next and Close to My Self: The Transparent Senses and the Second Skin",
+      "alt": "",
+      "relevance": "Theory resource, not a clothing intervention.",
+      "disposition": "link-only",
+      "reason": "Theory resource, not a clothing intervention.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R03",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile C fibers and tactile allodynia",
+      "creator": "Liljencrantz; Olausson",
+      "date": "2014",
+      "institution": "Frontiers",
+      "canonicalUrl": "https://doi.org/10.3389/fnbeh.2014.00037",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "caption": "Tactile C fibers and tactile allodynia",
+      "alt": "",
+      "relevance": "Touch mechanism and clinical boundary.",
+      "disposition": "link-only",
+      "reason": "Touch mechanism and clinical boundary.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R04",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "The Neural Architecture of Music-Evoked Autobiographical Memories",
+      "creator": "Petr Janata",
+      "date": "2009",
+      "institution": "PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Petr Janata · PubMed Central",
+      "caption": "The Neural Architecture of Music-Evoked Autobiographical Memories",
+      "alt": "",
+      "relevance": "Primary study; not fashion-specific.",
+      "disposition": "link-only",
+      "reason": "Primary study; not fashion-specific.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R05",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "creator": "CDC/NIOSH",
+      "date": "2015 to 2021",
+      "institution": "CDC",
+      "canonicalUrl": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "CDC/NIOSH · CDC",
+      "caption": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "alt": "",
+      "relevance": "Transfer-limited fatigue education.",
+      "disposition": "link-only",
+      "reason": "Transfer-limited fatigue education.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R06",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "The Action Simulation for Auditory Prediction hypothesis",
+      "creator": "Patel; Iversen",
+      "date": "2014",
+      "institution": "PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Patel; Iversen · PubMed Central",
+      "caption": "The Action Simulation for Auditory Prediction hypothesis",
+      "alt": "",
+      "relevance": "Beat prediction, not compelled movement.",
+      "disposition": "link-only",
+      "reason": "Beat prediction, not compelled movement.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R07",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester; Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review",
+      "canonicalUrl": "https://doi.org/10.1177/10888683231157961",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Hester; Hehman · Personality and Social Psychology Review",
+      "caption": "Dress Is a Fundamental Component of Person Perception",
+      "alt": "",
+      "relevance": "Inference is not accurate knowledge.",
+      "disposition": "link-only",
+      "reason": "Inference is not accurate knowledge.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R08",
+      "packages": [
+        "AAN-F-001",
+        "AAN-F-002",
+        "AAN-F-003",
+        "AAN-F-004",
+        "AAN-F-007"
+      ],
+      "title": "Fashion: Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "caption": "Fashion: Free to Use and Reuse",
+      "alt": "",
+      "relevance": "Discovery surface; item records remain controlling.",
+      "disposition": "resource-room",
+      "reason": "Discovery surface; item records remain controlling.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only",
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only",
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only",
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only",
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R09",
+      "packages": [
+        "AAN-F-001",
+        "AAN-F-002",
+        "AAN-F-003",
+        "AAN-F-004"
+      ],
+      "title": "Show Your Style",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "2013",
+      "institution": "The Met",
+      "canonicalUrl": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "caption": "Show Your Style",
+      "alt": "",
+      "relevance": "Museum visual-learning guide; linked, not republished.",
+      "disposition": "resource-room",
+      "reason": "Museum visual-learning guide; linked, not republished.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only",
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only",
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only",
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R10",
+      "packages": [
+        "AAN-F-005",
+        "AAN-F-006"
+      ],
+      "title": "Fashion runway1.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway1.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway1.jpg",
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "caption": "Fashion runway1.jpg",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "relevance": "CC0 runway witness; documentary context only.",
+      "disposition": "reserve",
+      "reason": "CC0 runway witness; documentary context only.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-005: reserve shelf",
+        " AAN-F-005: platform asset kit where editorially distinct",
+        "AAN-F-006: reserve shelf",
+        " AAN-F-006: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R11",
+      "packages": [
+        "AAN-F-005",
+        "AAN-F-006"
+      ],
+      "title": "Fashion runway2.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway2.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway2.jpg",
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "caption": "Fashion runway2.jpg",
+      "alt": "A runway presentation at Accra Technical University.",
+      "relevance": "CC0 alternate retained without duplicating the essay.",
+      "disposition": "reserve",
+      "reason": "CC0 alternate retained without duplicating the essay.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-005: reserve shelf",
+        " AAN-F-005: platform asset kit where editorially distinct",
+        "AAN-F-006: reserve shelf",
+        " AAN-F-006: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R12",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "caption": "T & E dress up in their 1918 uniforms",
+      "alt": "",
+      "relevance": "Rights advisory controls; not stored.",
+      "disposition": "link-only",
+      "reason": "Rights advisory controls; not stored.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R13",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Free-energy principle diagram",
+      "creator": "Commons contributor",
+      "date": "file record 2026",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
+      "mediaUrl": null,
+      "type": "diagram",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Commons contributor · Wikimedia Commons",
+      "caption": "Free-energy principle diagram",
+      "alt": "",
+      "relevance": "Open but overbroad; would imply an unsupported mechanism.",
+      "disposition": "rejected",
+      "reason": "Open but overbroad; would imply an unsupported mechanism.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: exclusion log: rejected"
+      ],
+      "exclusionReason": "Open but overbroad; would imply an unsupported mechanism."
+    },
+    {
+      "id": "R14",
+      "packages": [
+        "AAN-F-003",
+        "AAN-F-004"
+      ],
+      "title": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "creator": "Article authors",
+      "date": "2021",
+      "institution": "PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
+      "mediaUrl": null,
+      "type": "build precedent",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Article authors · PubMed Central",
+      "caption": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "alt": "",
+      "relevance": "Adjacent textile interface, not comfort or memory evidence.",
+      "disposition": "resource-room",
+      "reason": "Adjacent textile interface, not comfort or memory evidence.",
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only",
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R15",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester and Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review",
+      "caption": "Dress Is a Fundamental Component of Person Perception",
+      "alt": "",
+      "relevance": "Open review that separates dress-based inference from accurate knowledge.",
+      "disposition": "resource-room",
+      "reason": "Open review that separates dress-based inference from accurate knowledge.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R16",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Enclothed cognition",
+      "creator": "Adam and Galinsky",
+      "date": "2012",
+      "institution": "Journal of Experimental Social Psychology",
+      "canonicalUrl": "https://doi.org/10.1016/j.jesp.2012.02.008",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Adam and Galinsky · Journal of Experimental Social Psychology",
+      "caption": "Enclothed cognition",
+      "alt": "",
+      "relevance": "Original study; publisher page controls and figures are not extracted.",
+      "disposition": "resource-room",
+      "reason": "Original study; publisher page controls and figures are not extracted.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R17",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses",
+      "creator": "C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky",
+      "date": "2025 (online 2023)",
+      "institution": "Personality and Social Psychology Bulletin",
+      "canonicalUrl": "https://doi.org/10.1177/01461672231182478",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
+      "caption": "Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses",
+      "alt": "",
+      "relevance": "Synthesis resource; no figure reuse grant verified.",
+      "disposition": "resource-room",
+      "reason": "Synthesis resource; no figure reuse grant verified.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R18",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Psychology of fashion, with Carolyn Mair, PhD",
+      "creator": "American Psychological Association",
+      "date": "2019",
+      "institution": "APA",
+      "canonicalUrl": "https://www.apa.org/news/podcasts/speaking-of-psychology/fashion",
+      "mediaUrl": null,
+      "type": "audio",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "American Psychological Association · APA",
+      "caption": "Psychology of fashion, with Carolyn Mair, PhD",
+      "alt": "",
+      "relevance": "Official podcast and transcript; use official page/player only.",
+      "disposition": "resource-room",
+      "reason": "Official podcast and transcript; use official page/player only.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R19",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "DeepFashion",
+      "creator": "Multimedia Laboratory, The Chinese University of Hong Kong",
+      "date": "2016",
+      "institution": "CUHK",
+      "canonicalUrl": "https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html",
+      "mediaUrl": null,
+      "type": "dataset",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Multimedia Laboratory, The Chinese University of Hong Kong · CUHK",
+      "caption": "DeepFashion",
+      "alt": "",
+      "relevance": "Computer-vision dataset useful for method contrast; terms must be checked before download.",
+      "disposition": "resource-room",
+      "reason": "Computer-vision dataset useful for method contrast; terms must be checked before download.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R20",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Free-energy principle diagram",
+      "creator": "Wikimedia contributor",
+      "date": "2010/2026 record",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
+      "mediaUrl": null,
+      "type": "diagram",
+      "rightsStatus": "rejected",
+      "licenseUrl": null,
+      "credit": "Wikimedia contributor · Wikimedia Commons",
+      "caption": "Free-energy principle diagram",
+      "alt": "",
+      "relevance": "Duplicate of R13 and would overstate a mechanism.",
+      "disposition": "rejected",
+      "reason": "Duplicate of R13 and would overstate a mechanism.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: exclusion log: rejected"
+      ],
+      "exclusionReason": "Duplicate of R13 and would overstate a mechanism."
+    },
+    {
+      "id": "R21",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Whatever Next and Close to My Self: The Transparent Senses and the Second Skin",
+      "creator": "Ciaunica et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology",
+      "canonicalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.613587/full",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "caption": "Whatever Next and Close to My Self: The Transparent Senses and the Second Skin",
+      "alt": "",
+      "relevance": "Theory of bodily self and second-skin metaphors; not evidence that an outfit creates protection.",
+      "disposition": "resource-room",
+      "reason": "Theory of bodily self and second-skin metaphors; not evidence that an outfit creates protection.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R22",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "The rubber hand illusion",
+      "creator": "Botvinick and Cohen",
+      "date": "1998",
+      "institution": "Nature",
+      "canonicalUrl": "https://doi.org/10.1038/35784",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Botvinick and Cohen · Nature",
+      "caption": "The rubber hand illusion",
+      "alt": "",
+      "relevance": "Foundational body-ownership paradigm; not a clothing study.",
+      "disposition": "resource-room",
+      "reason": "Foundational body-ownership paradigm; not a clothing study.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R23",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "The sense of body ownership",
+      "creator": "Tsakiris",
+      "date": "2010",
+      "institution": "Neuropsychologia",
+      "canonicalUrl": "https://doi.org/10.1016/j.neuropsychologia.2009.09.034",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Tsakiris · Neuropsychologia",
+      "caption": "The sense of body ownership",
+      "alt": "",
+      "relevance": "Review of body ownership; transfer to clothing is explicitly limited.",
+      "disposition": "resource-room",
+      "reason": "Review of body ownership; transfer to clothing is explicitly limited.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R24",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Where Does It Hurt?",
+      "creator": "Three Johns and Shelagh / Wellcome Collection",
+      "date": "2014",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "mediaUrl": null,
+      "type": "book",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Three Johns and Shelagh / Wellcome Collection · Wellcome Collection",
+      "caption": "Where Does It Hurt?",
+      "alt": "",
+      "relevance": "Creative-commons visual essays about embodied experience; contextual, not direct armor evidence.",
+      "disposition": "resource-room",
+      "reason": "Creative-commons visual essays about embodied experience; contextual, not direct armor evidence.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R25",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Armor collection search",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "ongoing",
+      "institution": "The Met",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search?q=armor&showOnly=openAccess",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "caption": "Armor collection search",
+      "alt": "",
+      "relevance": "Discovery surface for public-domain armor objects; only selected item records may be installed.",
+      "disposition": "resource-room",
+      "reason": "Discovery surface for public-domain armor objects; only selected item records may be installed.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R26",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Protective clothing search",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/photos/?q=protective+clothing",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "caption": "Protective clothing search",
+      "alt": "",
+      "relevance": "Discovery results; item-specific advisories control.",
+      "disposition": "resource-room",
+      "reason": "Discovery results; item-specific advisories control.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R27",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile sensitivity alters textile touch perception",
+      "creator": "Article authors",
+      "date": "2024",
+      "institution": "Scientific Reports / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "caption": "Tactile sensitivity alters textile touch perception",
+      "alt": "",
+      "relevance": "Direct textile-touch evidence; article-level CC BY permits attributed figure reuse subject to third-party notices.",
+      "disposition": "resource-room",
+      "reason": "Direct textile-touch evidence; article-level CC BY permits attributed figure reuse subject to third-party notices.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R28",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Sensory Considerations for Emerging Textile Applications",
+      "creator": "Article authors",
+      "date": "2024",
+      "institution": "MDPI Textiles",
+      "canonicalUrl": "https://www.mdpi.com/2673-7248/4/1/2",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · MDPI Textiles",
+      "caption": "Sensory Considerations for Emerging Textile Applications",
+      "alt": "",
+      "relevance": "Open review connecting textile properties, sensory measurement and applications.",
+      "disposition": "resource-room",
+      "reason": "Open review connecting textile properties, sensory measurement and applications.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R29",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Touch",
+      "creator": "McGlone and Reilly",
+      "date": "2010",
+      "institution": "NCBI Bookshelf",
+      "canonicalUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92803/",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "McGlone and Reilly · NCBI Bookshelf",
+      "caption": "Touch",
+      "alt": "",
+      "relevance": "Authoritative touch-neurobiology chapter; chapter copyright controls.",
+      "disposition": "resource-room",
+      "reason": "Authoritative touch-neurobiology chapter; chapter copyright controls.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R30",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Cross-Modal Interactions of the Tactile System",
+      "creator": "Article authors",
+      "date": "2022",
+      "institution": "Frontiers / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9674209/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · Frontiers / PMC",
+      "caption": "Cross-Modal Interactions of the Tactile System",
+      "alt": "",
+      "relevance": "Review of touch interactions with vision and audition.",
+      "disposition": "resource-room",
+      "reason": "Review of touch interactions with vision and audition.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R31",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile textiles sense movement via touch",
+      "creator": "MIT News",
+      "date": "2021",
+      "institution": "Massachusetts Institute of Technology",
+      "canonicalUrl": "https://news.mit.edu/2021/tactile-textiles-sense-movement-via-touch-0331",
+      "mediaUrl": null,
+      "type": "video/article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "MIT News · Massachusetts Institute of Technology",
+      "caption": "Tactile textiles sense movement via touch",
+      "alt": "",
+      "relevance": "Official explainer and demonstration; do not extract media.",
+      "disposition": "resource-room",
+      "reason": "Official explainer and demonstration; do not extract media.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R32",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "VisTouch dataset",
+      "creator": "Liang et al.",
+      "date": "2026",
+      "institution": "GitHub",
+      "canonicalUrl": "https://github.com/liangnjupt/VisTouch",
+      "mediaUrl": null,
+      "type": "dataset/tool",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Liang et al. · GitHub",
+      "caption": "VisTouch dataset",
+      "alt": "",
+      "relevance": "Vision-touch-audio sliding-contact dataset; data CC BY 4.0, code MIT.",
+      "disposition": "resource-room",
+      "reason": "Vision-touch-audio sliding-contact dataset; data CC BY 4.0, code MIT.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R33",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Music-evoked autobiographical memories",
+      "creator": "Janata",
+      "date": "2009",
+      "institution": "Cerebral Cortex / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "caption": "Music-evoked autobiographical memories",
+      "alt": "",
+      "relevance": "Primary neural study used as a careful analogy, not fashion-specific evidence.",
+      "disposition": "resource-room",
+      "reason": "Primary neural study used as a careful analogy, not fashion-specific evidence.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R34",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashion: Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "caption": "Fashion: Free to Use and Reuse",
+      "alt": "",
+      "relevance": "Duplicate discovery surface already recorded as R08.",
+      "disposition": "duplicate",
+      "reason": "Duplicate discovery surface already recorded as R08.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate discovery surface already recorded as R08."
+    },
+    {
+      "id": "R35",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashion collection",
+      "creator": "Smithsonian Institution",
+      "date": "ongoing",
+      "institution": "Smithsonian Open Access",
+      "canonicalUrl": "https://www.si.edu/search/collection-images?edan_q=fashion",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "caption": "Fashion collection",
+      "alt": "",
+      "relevance": "Discovery portal; individual CC0 records required before reproduction.",
+      "disposition": "resource-room",
+      "reason": "Discovery portal; individual CC0 records required before reproduction.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R36",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashion collection",
+      "creator": "Europeana",
+      "date": "ongoing",
+      "institution": "Europeana",
+      "canonicalUrl": "https://www.europeana.eu/en/collections/topic/55-fashion",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Europeana · Europeana",
+      "caption": "Fashion collection",
+      "alt": "",
+      "relevance": "Transnational fashion discovery portal; provider item rights statements control.",
+      "disposition": "resource-room",
+      "reason": "Transnational fashion discovery portal; provider item rights statements control.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R37",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Vogue archive search",
+      "creator": "Internet Archive",
+      "date": "ongoing",
+      "institution": "Internet Archive",
+      "canonicalUrl": "https://archive.org/search?query=title%3A%28vogue%29+AND+mediatype%3A%28texts%29",
+      "mediaUrl": null,
+      "type": "archive",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Internet Archive · Internet Archive",
+      "caption": "Vogue archive search",
+      "alt": "",
+      "relevance": "Historical periodicals are discovery/research material; scan access does not establish reuse.",
+      "disposition": "resource-room",
+      "reason": "Historical periodicals are discovery/research material; scan access does not establish reuse.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R38",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Autobiographical Memory Test materials",
+      "creator": "Open Science Framework contributors",
+      "date": "ongoing",
+      "institution": "OSF",
+      "canonicalUrl": "https://osf.io/search/?q=autobiographical%20memory",
+      "mediaUrl": null,
+      "type": "dataset/tool",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Open Science Framework contributors · OSF",
+      "caption": "Autobiographical Memory Test materials",
+      "alt": "",
+      "relevance": "Open-science discovery trail; project-specific licenses vary.",
+      "disposition": "resource-room",
+      "reason": "Open-science discovery trail; project-specific licenses vary.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R39",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Emotional sounds of crowds",
+      "creator": "Article authors",
+      "date": "2020",
+      "institution": "Scientific Reports / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429201/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "caption": "Emotional sounds of crowds",
+      "alt": "",
+      "relevance": "Open crowd-sound analysis relevant to event arousal; not Fashion Week-specific.",
+      "disposition": "resource-room",
+      "reason": "Open crowd-sound analysis relevant to event arousal; not Fashion Week-specific.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R40",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "creator": "CDC/NIOSH",
+      "date": "2015 to 2021",
+      "institution": "CDC",
+      "canonicalUrl": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "CDC/NIOSH · CDC",
+      "caption": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "alt": "",
+      "relevance": "Duplicate of R05; retained as a recorded duplicate.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R05; retained as a recorded duplicate.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate of R05; retained as a recorded duplicate."
+    },
+    {
+      "id": "R41",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "About Sleep",
+      "creator": "Centers for Disease Control and Prevention",
+      "date": "2024",
+      "institution": "CDC",
+      "canonicalUrl": "https://www.cdc.gov/sleep/about/index.html",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "caption": "About Sleep",
+      "alt": "",
+      "relevance": "General sleep-health guidance; not Fashion Week evidence.",
+      "disposition": "resource-room",
+      "reason": "General sleep-health guidance; not Fashion Week evidence.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R42",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "British Fashion Council official video channel",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "caption": "British Fashion Council official video channel",
+      "alt": "",
+      "relevance": "Official audiovisual discovery channel; individual videos require separate editorial selection.",
+      "disposition": "resource-room",
+      "reason": "Official audiovisual discovery channel; individual videos require separate editorial selection.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R43",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Fashion Industry Charter for Climate Action",
+      "creator": "UN Climate Change",
+      "date": "2018-ongoing",
+      "institution": "UNFCCC",
+      "canonicalUrl": "https://unfccc.int/climate-action/sectoral-engagement/global-climate-action-in-fashion/fashion-industry-charter-for-climate-action",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "UN Climate Change · UNFCCC",
+      "caption": "Fashion Industry Charter for Climate Action",
+      "alt": "",
+      "relevance": "Institutional context; not evidence about nervous-system effects.",
+      "disposition": "resource-room",
+      "reason": "Institutional context; not evidence about nervous-system effects.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R44",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Fashion runway13.jpg",
+      "creator": "Kwaku Berko",
+      "date": "2023-08-18",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway13.jpg",
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "caption": "Fashion runway13.jpg",
+      "alt": "A runway model at Accra Technical University.",
+      "relevance": "Additional documentary runway view; exact item record controls.",
+      "disposition": "reserve",
+      "reason": "Additional documentary runway view; exact item record controls.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: reserve shelf",
+        " AAN-F-005: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R45",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "The Action Simulation for Auditory Prediction hypothesis",
+      "creator": "Patel and Iversen",
+      "date": "2014",
+      "institution": "Frontiers in Systems Neuroscience / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "credit": "Patel and Iversen · Frontiers in Systems Neuroscience / PMC",
+      "caption": "The Action Simulation for Auditory Prediction hypothesis",
+      "alt": "",
+      "relevance": "Duplicate of R06; recorded rather than recounted.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R06; recorded rather than recounted.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate of R06; recorded rather than recounted."
+    },
+    {
+      "id": "R46",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Music and the brain: the neuroscience of music and musical appreciation",
+      "creator": "Article authors",
+      "date": "2017",
+      "institution": "BJPsych International / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5618809/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · BJPsych International / PMC",
+      "caption": "Music and the brain: the neuroscience of music and musical appreciation",
+      "alt": "",
+      "relevance": "Accessible open review of auditory, affective and motor systems.",
+      "disposition": "resource-room",
+      "reason": "Accessible open review of auditory, affective and motor systems.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R47",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Psychology of music",
+      "creator": "American Psychological Association",
+      "date": "ongoing",
+      "institution": "APA",
+      "canonicalUrl": "https://www.apa.org/topics/music",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "American Psychological Association · APA",
+      "caption": "Psychology of music",
+      "alt": "",
+      "relevance": "Official psychology topic surface; linked, not reproduced.",
+      "disposition": "resource-room",
+      "reason": "Official psychology topic surface; linked, not reproduced.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R48",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "British Fashion Council official video channel",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "caption": "British Fashion Council official video channel",
+      "alt": "",
+      "relevance": "Same official discovery channel as R42; individual soundtrack rights remain separate.",
+      "disposition": "duplicate",
+      "reason": "Same official discovery channel as R42; individual soundtrack rights remain separate.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Same official discovery channel as R42; individual soundtrack rights remain separate."
+    },
+    {
+      "id": "R49",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Web Audio API examples",
+      "creator": "MDN contributors",
+      "date": "ongoing",
+      "institution": "GitHub / MDN",
+      "canonicalUrl": "https://github.com/mdn/webaudio-examples",
+      "mediaUrl": null,
+      "type": "interactive/tool",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "MDN contributors · GitHub / MDN",
+      "caption": "Web Audio API examples",
+      "alt": "",
+      "relevance": "Open example code for an educational rhythm/sound demonstration; repository license is CC0.",
+      "disposition": "resource-room",
+      "reason": "Open example code for an educational rhythm/sound demonstration; repository license is CC0.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R50",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Free Music Archive genre search",
+      "creator": "Free Music Archive",
+      "date": "ongoing",
+      "institution": "Free Music Archive",
+      "canonicalUrl": "https://freemusicarchive.org/",
+      "mediaUrl": null,
+      "type": "audio",
+      "rightsStatus": "rejected",
+      "licenseUrl": null,
+      "credit": "Free Music Archive · Free Music Archive",
+      "caption": "Free Music Archive genre search",
+      "alt": "",
+      "relevance": "No track-level candidate with a verified license and editorial fit was selected in this pass.",
+      "disposition": "rejected",
+      "reason": "No track-level candidate with a verified license and editorial fit was selected in this pass.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: exclusion log: rejected"
+      ],
+      "exclusionReason": "No track-level candidate with a verified license and editorial fit was selected in this pass."
+    },
+    {
+      "id": "R51",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester and Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC",
+      "caption": "Dress Is a Fundamental Component of Person Perception",
+      "alt": "",
+      "relevance": "Open review central to observer inference and its accuracy limits.",
+      "disposition": "resource-room",
+      "reason": "Open review central to observer inference and its accuracy limits.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R52",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "creator": "Civile and Obhi",
+      "date": "2017",
+      "institution": "Frontiers in Psychology",
+      "canonicalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00062/full",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Civile and Obhi · Frontiers in Psychology",
+      "caption": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "alt": "",
+      "relevance": "Open experimental study of wearer attention; one student sample and one uniform manipulation, not a universal uniform effect.",
+      "disposition": "resource-room",
+      "reason": "Open experimental study of wearer attention; one student sample and one uniform manipulation, not a universal uniform effect.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R53",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "caption": "T & E dress up in their 1918 uniforms",
+      "alt": "",
+      "relevance": "Duplicate of R12; the item advisory does not support local storage.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R12; the item advisory does not support local storage.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate of R12; the item advisory does not support local storage."
+    },
+    {
+      "id": "R54",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Military uniform open-access search",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "ongoing",
+      "institution": "The Met",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search?q=military%20uniform&showOnly=openAccess",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "caption": "Military uniform open-access search",
+      "alt": "",
+      "relevance": "Discovery surface for item-level public-domain uniform records.",
+      "disposition": "resource-room",
+      "reason": "Discovery surface for item-level public-domain uniform records.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R55",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Uniforms collection search",
+      "creator": "Smithsonian Institution",
+      "date": "ongoing",
+      "institution": "Smithsonian Open Access",
+      "canonicalUrl": "https://www.si.edu/search/collection-images?edan_q=uniform",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "caption": "Uniforms collection search",
+      "alt": "",
+      "relevance": "Discovery surface; only exact CC0 item records may be installed.",
+      "disposition": "resource-room",
+      "reason": "Discovery surface; only exact CC0 item records may be installed.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R56",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Social perception study materials",
+      "creator": "Open Science Framework contributors",
+      "date": "ongoing",
+      "institution": "OSF",
+      "canonicalUrl": "https://osf.io/search/?q=uniform%20perception",
+      "mediaUrl": null,
+      "type": "dataset/tool",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Open Science Framework contributors · OSF",
+      "caption": "Social perception study materials",
+      "alt": "",
+      "relevance": "Search trail for open materials; project-level licenses must be checked.",
+      "disposition": "resource-room",
+      "reason": "Search trail for open materials; project-level licenses must be checked.",
+      "accessed": "2026-09-07",
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R57",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Dress and the magic of touch",
+      "creator": "Shahidha Bari; photographs by Maryam Wahid",
+      "date": "2020-10-06",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
+      "mediaUrl": null,
+      "type": "article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "caption": "Dress and the magic of touch",
+      "alt": "",
+      "relevance": "Exact-fit illustrated essay; photographs are © Maryam Wahid and therefore linked, not reproduced.",
+      "disposition": "resource-room",
+      "reason": "Exact-fit illustrated essay; photographs are © Maryam Wahid and therefore linked, not reproduced.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R58",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Dress: its sanitary aspect",
+      "creator": "Bernard Roth",
+      "date": "1880",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/my9bx9h3",
+      "mediaUrl": "https://iiif.wellcomecollection.org/pdf/b28048167",
+      "type": "book",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Bernard Roth · Wellcome Collection",
+      "caption": "Dress: its sanitary aspect",
+      "alt": "",
+      "relevance": "Forty-image public-domain digitization connecting dress, body and health.",
+      "disposition": "installed-media",
+      "reason": "Forty-image public-domain digitization connecting dress, body and health.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: exhibition/media library",
+        " AAN-F-001: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R59",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Fashion from The National and Domestic History of England",
+      "creator": "Unknown plate maker",
+      "date": "19th century",
+      "institution": "Europeana / British Library",
+      "canonicalUrl": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "caption": "Fashion from The National and Domestic History of England",
+      "alt": "",
+      "relevance": "Public-domain historical fashion plate for visual comparison; provider record controls.",
+      "disposition": "resource-room",
+      "reason": "Public-domain historical fashion plate for visual comparison; provider record controls.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R60",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Enclothed Cognition Replication materials",
+      "creator": "Burns et al.",
+      "date": "2017",
+      "institution": "Open Science Framework",
+      "canonicalUrl": "https://doi.org/10.17605/OSF.IO/KMCJ8",
+      "mediaUrl": null,
+      "type": "dataset",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Burns et al. · Open Science Framework",
+      "caption": "Enclothed Cognition Replication materials",
+      "alt": "",
+      "relevance": "Exact replication project record; file-level licenses vary and are not inferred.",
+      "disposition": "resource-room",
+      "reason": "Exact replication project record; file-level licenses vary and are not inferred.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R61",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "40598449",
+      "creator": "Alexandra Georgiou",
+      "date": "date not stated",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/c8vq78kk",
+      "mediaUrl": null,
+      "type": "textile artwork",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "caption": "40598449",
+      "alt": "",
+      "relevance": "Artist’s clothing-based work about the body as terrain of illness; reproduction rights not established.",
+      "disposition": "resource-room",
+      "reason": "Artist’s clothing-based work about the body as terrain of illness; reproduction rights not established.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R62",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Where Does It Hurt?",
+      "creator": "Three Johns and Shelagh",
+      "date": "2014",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "mediaUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "type": "book",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Three Johns and Shelagh · Wellcome Collection",
+      "caption": "Where Does It Hurt?",
+      "alt": "",
+      "relevance": "Downloadable visual essays on embodied experience; contextual rather than a clothing intervention.",
+      "disposition": "installed-media",
+      "reason": "Downloadable visual essays on embodied experience; contextual rather than a clothing intervention.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: exhibition/media library",
+        " AAN-F-002: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R63",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Naisen kokovartalomuotokuva",
+      "creator": "Unidentified photographer",
+      "date": "date not stated",
+      "institution": "Europeana",
+      "canonicalUrl": "https://www.europeana.eu/en/item/117/_C73F9EDD_3F02_4783_AA7A_27A8BE5C7CE9",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unidentified photographer · Europeana",
+      "caption": "Naisen kokovartalomuotokuva",
+      "alt": "",
+      "relevance": "Public-domain full-body portrait retained as an identity/dress visual candidate.",
+      "disposition": "resource-room",
+      "reason": "Public-domain full-body portrait retained as an identity/dress visual candidate.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R64",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "The importance of dress; or, female rivalry",
+      "creator": "Anonymous",
+      "date": "1752",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/qam5vzc8",
+      "mediaUrl": null,
+      "type": "book",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Anonymous · Wellcome Collection",
+      "caption": "The importance of dress; or, female rivalry",
+      "alt": "",
+      "relevance": "Exact historical text record, but the available full text is provider-restricted; no local reproduction.",
+      "disposition": "reserve",
+      "reason": "Exact historical text record, but the available full text is provider-restricted; no local reproduction.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: reserve shelf",
+        " AAN-F-002: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R65",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Dress and the magic of touch",
+      "creator": "Shahidha Bari; photographs by Maryam Wahid",
+      "date": "2020-10-06",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
+      "mediaUrl": null,
+      "type": "article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "caption": "Dress and the magic of touch",
+      "alt": "",
+      "relevance": "Exact-fit reporting with strong copyrighted photography; official page only.",
+      "disposition": "resource-room",
+      "reason": "Exact-fit reporting with strong copyrighted photography; official page only.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R66",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Health & beauty in dress from infancy to old age",
+      "creator": "Ada Sarah Ballin",
+      "date": "c.1893",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/brwc6mn4",
+      "mediaUrl": "https://iiif.wellcomecollection.org/pdf/b28051154",
+      "type": "book",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Ada Sarah Ballin · Wellcome Collection",
+      "caption": "Health & beauty in dress from infancy to old age",
+      "alt": "",
+      "relevance": "Public-domain 282-image digitization on clothing, health and shoes.",
+      "disposition": "installed-media",
+      "reason": "Public-domain 282-image digitization on clothing, health and shoes.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: exhibition/media library",
+        " AAN-F-003: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R67",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile sensitivity alters textile touch perception: Figure 2",
+      "creator": "Mehta, Holásková and Walker",
+      "date": "2024",
+      "institution": "PLOS ONE / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/figure/pone.0308957.g002/",
+      "mediaUrl": null,
+      "type": "research/figures",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Mehta, Holásková and Walker · PLOS ONE / PMC",
+      "caption": "Mounted textile swatch presented to study participants",
+      "alt": "Front and back views of a textile swatch mounted between sheets for controlled tactile evaluation.",
+      "relevance": "Direct textile-touch study; full text and article-owned figures may be reused with attribution, subject to third-party notices.",
+      "disposition": "installed-media",
+      "reason": "Direct textile-touch study; full text and article-owned figures may be reused with attribution, subject to third-party notices.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: exhibition/media library",
+        " AAN-F-003: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R68",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "VisTouch vision-touch-audio dataset",
+      "creator": "Liang et al.",
+      "date": "2026",
+      "institution": "GitHub",
+      "canonicalUrl": "https://github.com/liangnjupt/VisTouch",
+      "mediaUrl": null,
+      "type": "dataset/tool",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Liang et al. · GitHub",
+      "caption": "VisTouch vision-touch-audio dataset",
+      "alt": "",
+      "relevance": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset."
+    },
+    {
+      "id": "R69",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "40598449",
+      "creator": "Alexandra Georgiou",
+      "date": "date not stated",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/c8vq78kk",
+      "mediaUrl": null,
+      "type": "textile artwork",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "caption": "40598449",
+      "alt": "",
+      "relevance": "Personal clothing transformed into an illness/memory volume; official record only.",
+      "disposition": "resource-room",
+      "reason": "Personal clothing transformed into an illness/memory volume; official record only.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R70",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashion from The National and Domestic History of England",
+      "creator": "Unknown plate maker",
+      "date": "19th century",
+      "institution": "Europeana / British Library",
+      "canonicalUrl": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "caption": "Fashion from The National and Domestic History of England",
+      "alt": "",
+      "relevance": "Public-domain period-fashion image useful for explaining mediated recall.",
+      "disposition": "resource-room",
+      "reason": "Public-domain period-fashion image useful for explaining mediated recall.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R71",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Birth, babies and boxes of memories",
+      "creator": "Erin Beeston; Naomi Williams",
+      "date": "2021",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/stories/birth-babies-and-boxes-of-memories",
+      "mediaUrl": null,
+      "type": "article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Erin Beeston; Naomi Williams · Wellcome Collection",
+      "caption": "Birth, babies and boxes of memories",
+      "alt": "",
+      "relevance": "Official material-memory essay; not clothing-specific and media rights remain controlled.",
+      "disposition": "resource-room",
+      "reason": "Official material-memory essay; not clothing-specific and media rights remain controlled.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R72",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Internet Archive fashion-periodical traversal",
+      "creator": "Internet Archive contributors",
+      "date": "2026 search",
+      "institution": "Internet Archive",
+      "canonicalUrl": "https://archive.org/search?query=subject%3A%22fashion%22+AND+mediatype%3Atexts",
+      "mediaUrl": null,
+      "type": "archive",
+      "rightsStatus": "rejected",
+      "licenseUrl": null,
+      "credit": "Internet Archive contributors · Internet Archive",
+      "caption": "Internet Archive fashion-periodical traversal",
+      "alt": "",
+      "relevance": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights.",
+      "disposition": "rejected",
+      "reason": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: exclusion log: rejected"
+      ],
+      "exclusionReason": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights."
+    },
+    {
+      "id": "R73",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Fashion runway13.jpg",
+      "creator": "Kwaku Berko",
+      "date": "2023-08-18",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "caption": "Fashion runway13.jpg",
+      "alt": "",
+      "relevance": "Duplicate of R44 found by direct category traversal.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R44 found by direct category traversal.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate of R44 found by direct category traversal."
+    },
+    {
+      "id": "R74",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Runway at Fashion Show Mall (2010)",
+      "creator": "Jenny Mealing",
+      "date": "2010-06-25",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "type": "image",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "caption": "Runway at Fashion Show Mall (2010)",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "relevance": "High-resolution runway/crowd environment with confirmed Flickr review.",
+      "disposition": "installed-media",
+      "reason": "High-resolution runway/crowd environment with confirmed Flickr review.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: exhibition/media library",
+        " AAN-F-005: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R75",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Health and clothing",
+      "creator": "Bermondsey Borough Council",
+      "date": "c.1928",
+      "institution": "Wellcome Collection / BFI National Archive",
+      "canonicalUrl": "https://wellcomecollection.org/works/vxe6xptj",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "caption": "Health and clothing",
+      "alt": "",
+      "relevance": "Official historical film playable under noncommercial distribution terms; link only for this publication.",
+      "disposition": "resource-room",
+      "reason": "Official historical film playable under noncommercial distribution terms; link only for this publication.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R76",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "British Fashion Council official channel traversal",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil/videos",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "caption": "British Fashion Council official channel traversal",
+      "alt": "",
+      "relevance": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded.",
+      "disposition": "duplicate",
+      "reason": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded."
+    },
+    {
+      "id": "R77",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Videos of fashion shows category",
+      "creator": "Wikimedia Commons contributors",
+      "date": "ongoing",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_fashion_shows",
+      "mediaUrl": null,
+      "type": "video collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Wikimedia Commons contributors · Wikimedia Commons",
+      "caption": "Videos of fashion shows category",
+      "alt": "",
+      "relevance": "Direct video-category surface; individual recordings require separate license and soundtrack review.",
+      "disposition": "resource-room",
+      "reason": "Direct video-category surface; individual recordings require separate license and soundtrack review.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R78",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "MDN Step Sequencer",
+      "creator": "MDN contributors",
+      "date": "ongoing",
+      "institution": "MDN / GitHub",
+      "canonicalUrl": "https://mdn.github.io/webaudio-examples/step-sequencer/",
+      "mediaUrl": "https://mdn.github.io/webaudio-examples/step-sequencer/",
+      "type": "interactive/tool",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "MDN contributors · MDN / GitHub",
+      "caption": "MDN Step Sequencer",
+      "alt": "",
+      "relevance": "Runnable rhythm sequencer installed as an external educational interactive; source repository is CC0.",
+      "disposition": "installed-tool",
+      "reason": "Runnable rhythm sequencer installed as an external educational interactive; source repository is CC0.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: interactive/tool room",
+        "AAN-F-006: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R79",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Runway at Fashion Show Mall (2010)",
+      "creator": "Jenny Mealing",
+      "date": "2010-06-25",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "type": "image",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "caption": "Runway at Fashion Show Mall (2010)",
+      "alt": "A fashion runway with spectators gathered around it.",
+      "relevance": "Runway environment retained for sound-space interpretation, with explicit attribution.",
+      "disposition": "installed-media",
+      "reason": "Runway environment retained for sound-space interpretation, with explicit attribution.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: exhibition/media library",
+        " AAN-F-006: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R80",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Internet Archive runway-audio traversal",
+      "creator": "Internet Archive contributors",
+      "date": "2026 search",
+      "institution": "Internet Archive",
+      "canonicalUrl": "https://archive.org/search?query=%22fashion+show%22+AND+mediatype%3Amovies",
+      "mediaUrl": null,
+      "type": "audio/video",
+      "rightsStatus": "rejected",
+      "licenseUrl": null,
+      "credit": "Internet Archive contributors · Internet Archive",
+      "caption": "Internet Archive runway-audio traversal",
+      "alt": "",
+      "relevance": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse.",
+      "disposition": "rejected",
+      "reason": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: exclusion log: rejected"
+      ],
+      "exclusionReason": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse."
+    },
+    {
+      "id": "R81",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "creator": "Civile and Obhi",
+      "date": "2017",
+      "institution": "Frontiers in Psychology / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5292616/",
+      "mediaUrl": null,
+      "type": "research/figures",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Civile and Obhi · Frontiers in Psychology / PMC",
+      "caption": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "alt": "",
+      "relevance": "Open full text and article-owned figures; narrow student experiment, not universal causal proof.",
+      "disposition": "installed-media",
+      "reason": "Open full text and article-owned figures; narrow student experiment, not universal causal proof.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: exhibition/media library",
+        " AAN-F-007: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R82",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Health and clothing",
+      "creator": "Bermondsey Borough Council",
+      "date": "c.1928",
+      "institution": "Wellcome Collection / BFI National Archive",
+      "canonicalUrl": "https://wellcomecollection.org/works/vxe6xptj",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "caption": "Health and clothing",
+      "alt": "",
+      "relevance": "Historical dress film retained under Wellcome’s noncommercial distribution terms; official player only.",
+      "disposition": "resource-room",
+      "reason": "Historical dress film retained under Wellcome’s noncommercial distribution terms; official player only.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R83",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Poplin collection topic",
+      "creator": "Europeana contributors",
+      "date": "ongoing",
+      "institution": "Europeana",
+      "canonicalUrl": "https://www.europeana.eu/en/collections/topic/2788",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Europeana contributors · Europeana",
+      "caption": "Poplin collection topic",
+      "alt": "",
+      "relevance": "Direct topic includes a UN tropical uniform shirt, but no exact item page with confirmed media rights was exposed by this traversal.",
+      "disposition": "reserve",
+      "reason": "Direct topic includes a UN tropical uniform shirt, but no exact item page with confirmed media rights was exposed by this traversal.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: reserve shelf",
+        " AAN-F-007: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R84",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "caption": "T & E dress up in their 1918 uniforms",
+      "alt": "",
+      "relevance": "Duplicate item; rights advisory still does not justify local reproduction.",
+      "disposition": "duplicate",
+      "reason": "Duplicate item; rights advisory still does not justify local reproduction.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: exclusion log: duplicate"
+      ],
+      "exclusionReason": "Duplicate item; rights advisory still does not justify local reproduction."
+    },
+    {
+      "id": "R85",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashions.jpg: composite historical fashion plate",
+      "creator": "Unknown author",
+      "date": "c.1900 compilation of 19th-century fashions",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashions.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashions.jpg",
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown author · Wikimedia Commons",
+      "caption": "Composite plate of nineteenth-century fashions",
+      "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
+      "relevance": "A time-compressed historical fashion image used to distinguish visual period recognition from autobiographical memory.",
+      "disposition": "installed-media",
+      "reason": "High-resolution public-domain image with exact work-level rights record and direct media endpoint.",
+      "accessed": "2026-09-07",
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: exhibition/media library",
+        " AAN-F-004: platform asset kit"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R86",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "The psychology of fashion, with Carolyn Mair, PhD",
+      "creator": "American Psychological Association",
+      "date": "2024",
+      "institution": "American Psychological Association / YouTube",
+      "canonicalUrl": "https://www.youtube.com/watch?v=H8t_jtbfJTU",
+      "mediaUrl": null,
+      "type": "official video",
+      "rightsStatus": "authorized embed candidate",
+      "licenseUrl": null,
+      "credit": "American Psychological Association",
+      "caption": "APA interview on the psychology of fashion",
+      "alt": "",
+      "relevance": "Expert context on clothing, identity and cognition; useful as interpretation, not causal proof of enclothed-cognition effects.",
+      "disposition": "reserve",
+      "reason": "Official APA-hosted video is directly relevant, but embed availability and third-party audiovisual rights require a live player check before installation.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-001: reserve shelf",
+        " AAN-F-001: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R87",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Styling the Self: Clothing Practices, Personality Traits, and Body Image Among Israeli Women",
+      "creator": "Stolovy et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8455911/",
+      "mediaUrl": null,
+      "type": "open-access research",
+      "rightsStatus": "link-only",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Stolovy et al. · Frontiers in Psychology",
+      "caption": "Study of clothing practices, personality traits and body image",
+      "alt": "",
+      "relevance": "Adds empirical context for clothing as self-presentation, but does not test an outfit-as-armor intervention.",
+      "disposition": "resource-room",
+      "reason": "The article is additive reading; its figures are not visually or evidentially superior to the installed exhibition sequence.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R88",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Clothes, Sensory Experiences and Autism: Is Wearing the Right Fabric Important?",
+      "creator": "Kyriacou et al.",
+      "date": "2021",
+      "institution": "Journal of Autism and Developmental Disorders / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10066095/",
+      "mediaUrl": null,
+      "type": "open-access research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Kyriacou et al.",
+      "caption": "Qualitative study of autistic adults' fabric experiences",
+      "alt": "",
+      "relevance": "Directly addresses tactile defensiveness and experiences of seven fabric samples among ten autistic adults.",
+      "disposition": "resource-room",
+      "reason": "The study is already represented in the package bibliography; this exact accessible record improves reader access but provides no superior reusable visual.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R89",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Patterns of brain activity associated with nostalgia",
+      "creator": "Yang et al.",
+      "date": "2022",
+      "institution": "Scientific Reports / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9714426/",
+      "mediaUrl": null,
+      "type": "open-access review and figures",
+      "rightsStatus": "link-only",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Yang et al. · Scientific Reports",
+      "caption": "Review of brain activity associated with nostalgia",
+      "alt": "",
+      "relevance": "Direct neuroscience context for nostalgia, while remaining explicit that the evidence is not fashion-specific.",
+      "disposition": "resource-room",
+      "reason": "Exact full-text record adds scientific depth; no figure was installed because the article's neural summaries would overstate specificity when used as fashion imagery.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R90",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Audience synchronies in live concerts illustrate the embodiment of music experience",
+      "creator": "Tschacher et al.",
+      "date": "2023",
+      "institution": "Scientific Reports / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556000/",
+      "mediaUrl": null,
+      "type": "open-access research",
+      "rightsStatus": "link-only",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Tschacher et al. · Scientific Reports",
+      "caption": "Study of physiological and movement synchrony in concert audiences",
+      "alt": "",
+      "relevance": "Adds a careful analogue for collective audience physiology; it is not a Fashion Week study.",
+      "disposition": "resource-room",
+      "reason": "Useful transfer-limited evidence, but installation as a Fashion Week visual would imply unsupported event-specific measurement.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R91",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Live music stimulates the affective brain and emotionally entrains listeners in real time",
+      "creator": "Trost et al.",
+      "date": "2024",
+      "institution": "PNAS / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10927510/",
+      "mediaUrl": null,
+      "type": "open-access research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Trost et al. · PNAS",
+      "caption": "Study comparing affective responses to live and recorded music",
+      "alt": "",
+      "relevance": "Directly deepens the live-versus-recorded music distinction relevant to runway soundtracks.",
+      "disposition": "resource-room",
+      "reason": "High-value reading, but the experimental stimuli and figures are not runway-specific and were not repurposed as documentary fashion media.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R92",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Dress is a Fundamental Component of Person Perception",
+      "creator": "Hester and Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+      "mediaUrl": null,
+      "type": "open-access review and conceptual model",
+      "rightsStatus": "link-only",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Hester and Hehman",
+      "caption": "Review and working model of dress in person perception",
+      "alt": "",
+      "relevance": "Directly maps dress cues to inferences about social categories, mental states, status and aesthetics.",
+      "disposition": "resource-room",
+      "reason": "The conceptual model is highly relevant, but is retained at source rather than extracted until figure-level attribution and adaptation treatment are reviewed.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R93",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Textile with full moon and pine-tree design",
+      "creator": "Unidentified designer or manufacturer",
+      "date": "date listed on institutional record",
+      "institution": "Cooper Hewitt, Smithsonian Design Museum",
+      "canonicalUrl": "https://www.si.edu/object/textile%3Achndm_2016-35-103",
+      "mediaUrl": null,
+      "type": "museum object image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://www.si.edu/openaccess",
+      "credit": "Cooper Hewitt, Smithsonian Design Museum",
+      "caption": "Printed textile with a full moon seen through pine trees",
+      "alt": "",
+      "relevance": "A strong textile-surface object, but it demonstrates pattern and design rather than the tactile variables discussed in the package.",
+      "disposition": "rejected",
+      "reason": "Although the indexed record declares the media public domain, its current canonical page returned unavailable during verification and the object is less probative than the installed construction-focused garments.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-003: exclusion log: rejected"
+      ],
+      "exclusionReason": "Although the indexed record declares the media public domain, its current canonical page returned unavailable during verification and the object is less probative than the installed construction-focused garments."
+    },
+    {
+      "id": "R94",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Printed textiles 1760 to 1860 in the collection of the Cooper-Hewitt Museum",
+      "creator": "Cooper-Hewitt Museum",
+      "date": "1987",
+      "institution": "Smithsonian Libraries and Archives",
+      "canonicalUrl": "https://library.si.edu/digital-library/book/printedtextiles100coop",
+      "mediaUrl": null,
+      "type": "digitized collection catalogue",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Cooper-Hewitt Museum · Smithsonian Institution",
+      "caption": "Digitized catalogue of printed textiles from 1760 to 1860",
+      "alt": "",
+      "relevance": "A public-domain period-design resource that can deepen future visual-period research without being mistaken for autobiographical-memory evidence.",
+      "disposition": "reserve",
+      "reason": "The catalogue and downloads are clearly CC0, but no individual page was selected because the existing installed composite fashion plate provides clearer temporal comparison at exhibition scale.",
+      "accessed": "2026-09-10",
+      "wave": 4,
+      "destinations": [
+        "AAN-F-004: reserve shelf",
+        " AAN-F-004: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R95",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile dimensions of fabrics expressed by Japanese onomatopoeic words and phonemic features related to fabric luxuriousness and pleasantness",
+      "creator": "Mitsuhiko Hanada",
+      "date": "2023",
+      "institution": "Frontiers in Language Sciences / Frontiers",
+      "canonicalUrl": "https://www.frontiersin.org/journals/language-sciences/articles/10.3389/flang.2023.1075055/full",
+      "mediaUrl": null,
+      "type": "open-access fabric-perception study and figures",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Hanada · Frontiers in Language Sciences · CC BY 4.0",
+      "caption": "Participants touched, stretched and curled 23 fabrics and generated Japanese onomatopoeic descriptions of hand feel",
+      "alt": "",
+      "relevance": "Adds a culturally and linguistically specific study of fabric hand feel, including thickness or heaviness, roughness and softness dimensions.",
+      "disposition": "resource-room",
+      "reason": "The study directly deepens the sensory-textile room, but its apparatus and plots are retained at source because they are experiment evidence rather than fashion imagery and require careful cultural context.",
+      "accessed": "2026-09-10",
+      "wave": 5,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R96",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "These Boots Weren’t Made for Walking: Gendered Discrepancies in Wearing Painful, Restricting, or Distracting Clothing",
+      "creator": "Renee Engeln and Anne Zola",
+      "date": "2021",
+      "institution": "Sex Roles / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8373606/",
+      "mediaUrl": null,
+      "type": "open-access clothing-experience study",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Engeln and Zola · Sex Roles",
+      "caption": "Two exploratory studies of self-reported painful, distracting or restricting clothing",
+      "alt": "",
+      "relevance": "Adds direct clothing-specific evidence about restriction, distraction, movement and bodily monitoring, with explicit gender and self-report limitations.",
+      "disposition": "resource-room",
+      "reason": "This is stronger as a full-text evidence resource than as an extracted table: the descriptive findings do not establish causality and the package should not turn gendered averages into individual predictions.",
+      "accessed": "2026-09-10",
+      "wave": 5,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R97",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "School Uniforms and Student Behavior: Is There a Link?",
+      "creator": "Arya Ansari, Michael Shepard and Michael A. Gottfried",
+      "date": "2022",
+      "institution": "Early Childhood Research Quarterly / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8775910/",
+      "mediaUrl": null,
+      "type": "open-access longitudinal policy study",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Ansari, Shepard and Gottfried · Early Childhood Research Quarterly",
+      "caption": "Nationally representative US data comparing elementary-school outcomes with and without uniform policies",
+      "alt": "",
+      "relevance": "Adds an important policy boundary: uniform requirements were generally not associated with better behavior or attendance across the studied elementary years.",
+      "disposition": "resource-room",
+      "reason": "This directly counters deterministic claims about uniforms, but it evaluates school policies rather than the acute neural or perceptual effect of wearing a garment.",
+      "accessed": "2026-09-10",
+      "wave": 5,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
+    },
+    {
+      "id": "R98",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Patient perception of physician attire: a systematic review update",
+      "creator": "Jiwon Kim et al.",
+      "date": "2025",
+      "institution": "BMJ Open / PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12352141/",
+      "mediaUrl": null,
+      "type": "open-access systematic review",
+      "rightsStatus": "CC BY-NC",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "credit": "Kim et al. · BMJ Open · CC BY-NC 4.0",
+      "caption": "Systematic review of 28 studies on patient perceptions of physician attire across settings and specialties",
+      "alt": "",
+      "relevance": "Updates the observer side of the uniform room and foregrounds variation by clinical context, specialty and physician gender.",
+      "disposition": "resource-room",
+      "reason": "The review is installed as a reading, not reproduced as media: its CC BY-NC terms require a noncommercial-use analysis and its findings are heterogeneous and context dependent.",
+      "accessed": "2026-09-10",
+      "wave": 5,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
+    }
+  ]
+}

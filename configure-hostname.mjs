@@ -1,0 +1,4 @@
+import fs from 'node:fs';import path from 'node:path';
+const host=process.argv[2];if(!host||!/^(?=.{1,253}$)(?!-)[a-z0-9-]+(?:\.[a-z0-9-]+)+(?!-)$/i.test(host))throw Error('Usage: node configure-hostname.mjs example.com');
+const old='ask-a-neuroscientist-fashion.vercel.app';const eligible=new Set(['.html','.xml','.txt','.json','.js','.md']);
+function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){if(entry.name==='.git'||entry.name==='node_modules')continue;const file=path.join(dir,entry.name);if(entry.isDirectory())walk(file);else if(eligible.has(path.extname(entry.name))){const before=fs.readFileSync(file,'utf8');const after=before.replaceAll(old,host);if(after!==before)fs.writeFileSync(file,after)}}}walk(process.cwd());console.log(`Canonical hostname configured: ${host}`);

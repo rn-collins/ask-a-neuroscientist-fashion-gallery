@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2.0",
+  "generated": "2026-09-09",
+  "policy": "Every installed media file must be either an exact rights-cleared public source asset or a deterministic original editorial/evidence composition with its evidentiary source identified. AI-generated and synthetic documentary imagery are prohibited.",
+  "limits": "Non-AI status is established from institutional provenance, historical dates, work-level records and inspectable deterministic repository rendering, not from unreliable visual AI detectors.",
+  "counts": {
+    "files": 2,
+    "note": "Public build: records for unreleased or uninstalled files are left out."
+  },
+  "records": [
+    {
+      "file": "/media/p005-field-load-score.svg",
+      "sha256": "ad4bf5397d1e643177599913308c6526169868776e67b3fbf2c7a03f3a93a7ad",
+      "bytes": 3007,
+      "assetClass": "original-evidence-graphic",
+      "sourceAssetId": "AAN-P005-FIELD-LOAD",
+      "title": "Field Load Score explainer",
+      "creator": "Rayven-Nikkita Collins",
+      "date": "2026-09-08",
+      "institution": "Ask a Neuroscientist × Fashion",
+      "canonicalUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fashion-week-nervous-system/",
+      "mediaUrl": "/media/p005-field-load-score.svg",
+      "rightsStatus": "Original publication asset",
+      "licenseUrl": null,
+      "credit": "Original evidence graphic · Rayven-Nikkita Collins",
+      "alt": "A transparent four-part evidence graphic separating sleep pressure, sensory load, social evaluation and physical demand.",
+      "relevance": "Explains the package’s four-part field-load model without pretending a photograph can visualize an unmeasured nervous-system state.",
+      "nonAiBasis": "Hand-authored repository SVG made from text and geometric primitives; its inspectable XML contains no embedded raster image or generative-model artifact.",
+      "transformation": "Original vector evidence design; not documentary photography."
+    },
+    {
+      "file": "/production-kits/aan-f-005/media/f-runway-pexels.jpg",
+      "sha256": "cb0e5533d507bdb602e1a44ffe15446ec5310816ce58a88c4670b16b10e1ff24",
+      "bytes": 2355592,
+      "assetClass": "documentary-source-image",
+      "sourceAssetId": "F-RUNWAY-PEXELS",
+      "title": "Runway show",
+      "creator": "Ahmad Ardity",
+      "date": "undated",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_show_pexels.jpg",
+      "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Runway_show_pexels.jpg",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Runway show · Ahmad Ardity · CC0",
+      "alt": "A fashion model walking a lit runway while spectators watch from both sides.",
+      "relevance": "A runway combines light, movement, spectatorship and navigation; the image does not measure exposure.",
+      "nonAiBasis": "The canonical institutional collection record identifies a catalogued historical object and its reusable rights status; the local file is a source download, not a generated image.",
+      "transformation": "Source download reduced only when needed for efficient delivery; display crops occur in deterministic platform rendering."
+    }
+  ]
+}

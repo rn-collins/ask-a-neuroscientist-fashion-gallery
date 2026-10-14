@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fashion Week field-load score</title>
+  <desc id="desc">An editorial timeline from a six a.m. call through a one-ten a.m. sleep opportunity, showing overlapping light, sound, crowd, evaluation, movement and recovery conditions.</desc>
+  <rect width="1600" height="900" fill="#171412"/>
+  <g fill="#eee9df" font-family="Arial, Helvetica, sans-serif">
+    <text x="80" y="82" font-size="22" letter-spacing="5">AAN × FASHION · FIELD INTENSITY</text>
+    <text x="80" y="184" font-family="Georgia, serif" font-size="76">One day. Many conditions.</text>
+    <text x="80" y="228" font-size="24" fill="#c9c2b9">A score for observation—not a neurological diagnosis.</text>
+  </g>
+  <line x1="110" y1="455" x2="1490" y2="455" stroke="#eee9df" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g transform="translate(130 455)"><circle r="28" fill="#8d1f2d"/><text y="72" fill="#eee9df" font-size="21">06:00</text><text y="103" fill="#c9c2b9" font-size="18">CALL</text></g>
+    <g transform="translate(405 455)"><circle r="20" fill="#1547b8"/><text y="72" fill="#eee9df" font-size="21">11:30</text><text y="103" fill="#c9c2b9" font-size="18">QUEUE</text></g>
+    <g transform="translate(680 455)"><circle r="36" fill="#d9ff4f"/><text y="72" fill="#eee9df" font-size="21">14:00</text><text y="103" fill="#c9c2b9" font-size="18">SHOW</text></g>
+    <g transform="translate(955 455)"><circle r="24" fill="#8d1f2d"/><text y="72" fill="#eee9df" font-size="21">18:45</text><text y="103" fill="#c9c2b9" font-size="18">TRANSIT</text></g>
+    <g transform="translate(1230 455)"><circle r="30" fill="#1547b8"/><text y="72" fill="#eee9df" font-size="21">22:00</text><text y="103" fill="#c9c2b9" font-size="18">EDIT</text></g>
+    <g transform="translate(1470 455)"><circle r="16" fill="#eee9df"/><text y="72" fill="#eee9df" font-size="21">01:10</text><text y="103" fill="#c9c2b9" font-size="18">SLEEP</text></g>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3">
+    <text x="85" y="700" fill="#d9ff4f">LIGHT</text><text x="330" y="700" fill="#eee9df">SOUND</text><text x="575" y="700" fill="#eee9df">CROWD</text><text x="820" y="700" fill="#eee9df">EVALUATION</text><text x="1110" y="700" fill="#eee9df">MOVEMENT</text><text x="1385" y="700" fill="#eee9df">RECOVERY</text>
+  </g>
+  <g fill="none" stroke-width="2" opacity=".72">
+    <path d="M85 660 C250 580 365 610 520 660" stroke="#d9ff4f"/>
+    <path d="M330 660 C500 745 665 565 820 660" stroke="#8d1f2d"/>
+    <path d="M575 660 C735 575 895 745 1050 660" stroke="#1547b8"/>
+    <path d="M820 660 C1010 565 1180 740 1340 660" stroke="#eee9df"/>
+  </g>
+  <text x="80" y="834" fill="#c9c2b9" font-family="Arial, Helvetica, sans-serif" font-size="20">Conditions overlap. Dose, control, role and person change the experience.</text>
+</svg>

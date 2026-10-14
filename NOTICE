@@ -1,0 +1,58 @@
+NOTICE
+
+Third-party items used by this project and the terms the project's own records give for them.
+Nothing here is relicensed. The code is under MIT (LICENSE) and the original text and data are copyright RN Collins, all rights reserved (LICENSE-CONTENT).
+
+1. The Metropolitan Museum of Art Open Access objects (22)
+
+Object photographs are displayed from the Met's servers and are not stored in this repository. Each record
+below is marked Public Domain / CC0 under the Met's Open Access policy
+(https://www.metmuseum.org/about-the-met/policies-and-documents/open-access). Titles, makers, dates and
+accession numbers follow the Met's catalogue records, with dashes written as hyphens or the word to.
+
+  - Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0. https://www.metmuseum.org/art/collection/search/82433
+  - Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0. https://www.metmuseum.org/art/collection/search/173652
+  - Corset, Maker unknown, 1740 to 1760. The Metropolitan Museum of Art. 2009.300.3330. CC0. https://www.metmuseum.org/art/collection/search/158256
+  - Costume Armor and Sword in the Classical Style, Hallé, ca. 1788 to 1790. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1-.2; 1995.93a, b. CC0. https://www.metmuseum.org/art/collection/search/626019
+  - Glove, Maker unknown, ca. 1600. The Metropolitan Museum of Art. 53.134. CC0. https://www.metmuseum.org/art/collection/search/227647
+  - Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0. https://www.metmuseum.org/art/collection/search/717582
+  - Shoes, Vincent van Gogh, 1888. The Metropolitan Museum of Art. 1992.374. CC0. https://www.metmuseum.org/art/collection/search/436533
+  - Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400 to 1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0. https://www.metmuseum.org/art/collection/search/23205
+  - Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0. https://www.metmuseum.org/art/collection/search/27790
+  - Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0. https://www.metmuseum.org/art/collection/search/22001
+  - Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a-n. CC0. https://www.metmuseum.org/art/collection/search/24671
+  - Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0. https://www.metmuseum.org/art/collection/search/22020
+  - Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0. https://www.metmuseum.org/art/collection/search/96434
+  - Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a-c. CC0. https://www.metmuseum.org/art/collection/search/82459
+  - Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0. https://www.metmuseum.org/art/collection/search/81754
+  - Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a-c. CC0. https://www.metmuseum.org/art/collection/search/107620
+  - Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0. https://www.metmuseum.org/art/collection/search/503169
+  - Drum, Nasca artist(s), 100 to 400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0. https://www.metmuseum.org/art/collection/search/310563
+  - Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0. https://www.metmuseum.org/art/collection/search/505646
+  - Military uniform, Maker unknown, 1880 to 1884. The Metropolitan Museum of Art, Costume Institute. C.I.47.76.1a, b. CC0. https://www.metmuseum.org/art/collection/search/84440
+  - Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a-h. CC0. https://www.metmuseum.org/art/collection/search/84449
+  - Ensemble, Maker unknown, 1863 to 1866. The Metropolitan Museum of Art, Costume Institute. 2009.20a-j. CC0. https://www.metmuseum.org/art/collection/search/151912
+
+2. Wikimedia Commons photographs stored in this repository (1)
+
+  - production-kits/aan-f-005/media/f-runway-pexels.jpg: "Runway show", Ahmad Ardity. Wikimedia Commons. CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Record: https://commons.wikimedia.org/wiki/File:Runway_show_pexels.jpg. SHA-256 cb0e5533d507bdb602e1a44ffe15446ec5310816ce58a88c4670b16b10e1ff24.
+
+3. Embedded video
+
+The pages embed videos through YouTube's privacy-enhanced player (youtube-nocookie.com). The videos are not
+copied or licensed by this repository; rights stay with their owners.
+Embedded video ids: S5dwtat6Wp8, WifoAv6AR_I, vRJbrfgrAUs.
+
+4. Fonts
+
+style.css loads DM Mono, Inter and Newsreader from Google Fonts at runtime. The font files are not stored here. Each family
+keeps the license its designers chose, which this project has not restated.
+
+5. Cited research
+
+Papers, courses and other records are cited by DOI or link. No figure, table or excerpt is reproduced beyond
+short attribution.
+
+6. The evidence graphic
+
+media/p005-field-load-score.svg is an original vector graphic by RN Collins. All rights reserved.

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sensory Textile Field Map · AAN × Fashion</title><meta name="description" content="A private, non-diagnostic garment comparison tool."><link rel="canonical" href="https://ask-a-neuroscientist-fashion.vercel.app/lab/textile-sensory-map/"><meta property="og:title" content="Sensory Textile Field Map · AAN × Fashion"><meta property="og:description" content="A private, non-diagnostic garment comparison tool."><meta property="og:type" content="website"><meta property="og:url" content="https://ask-a-neuroscientist-fashion.vercel.app/lab/textile-sensory-map/"><meta property="og:image" content="https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a%E2%80%93cf_F.jpg"><meta property="og:image:alt" content="Editorial preview for Sensory Textile Field Map · AAN × Fashion"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sensory Textile Field Map · AAN × Fashion"><meta name="twitter:description" content="A private, non-diagnostic garment comparison tool."><meta name="twitter:image" content="https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a%E2%80%93cf_F.jpg"><meta name="twitter:image:alt" content="Editorial preview for Sensory Textile Field Map · AAN × Fashion">
+
+<link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="wrap article">
+      <header class="story-head">
+        <p class="kicker">FIELD TOOL · PACKAGE 003</p>
+        <h1>Sensory Textile Field Map</h1>
+        <p class="lede">
+          Observe the encounter. This tool makes no diagnosis. Nothing is
+          transmitted or stored; use Print to save locally.
+        </p>
+        <p class="meta">Education, not medical advice.</p>
+      </header>
+      <section class="tool-panel">
+        <label
+          >Garment
+          <input
+            id="garment"
+            placeholder="e.g., black rib-knit turtleneck" /></label
+        ><label
+          >Body site
+          <input id="site" placeholder="neck, waist, forearm…" /></label
+        ><label
+          >Surface / friction
+          <input id="surface" type="range" min="0" max="10" value="5" /><output
+            id="surfaceO"
+            >5</output
+          ></label
+        ><label
+          >Pressure / fit
+          <input id="pressure" type="range" min="0" max="10" value="5" /><output
+            id="pressureO"
+            >5</output
+          ></label
+        ><label
+          >Heat / moisture
+          <input id="heat" type="range" min="0" max="10" value="5" /><output
+            id="heatO"
+            >5</output
+          ></label
+        ><label
+          >Movement / repetition
+          <input id="movement" type="range" min="0" max="10" value="5" /><output
+            id="movementO"
+            >5</output
+          ></label
+        ><label
+          >Context
+          <select id="context">
+            <option>quiet / low demand</option>
+            <option>work or school</option>
+            <option>crowded / high demand</option>
+            <option>movement or exercise</option>
+            <option>after long wear</option>
+          </select></label
+        >
+        <fieldset>
+          <legend>What did it feel like? (choose any)</legend>
+          <label><input type="checkbox" value="settling" /> settling</label
+          ><label><input type="checkbox" value="neutral" /> neutral</label
+          ><label
+            ><input type="checkbox" value="distracting" /> distracting</label
+          ><label><input type="checkbox" value="itchy" /> itchy</label
+          ><label><input type="checkbox" value="painful" /> painful</label
+          ><label
+            ><input type="checkbox" value="entrapping" /> entrapping</label
+          >
+        </fieldset>
+        <label
+          >One change to test
+          <textarea
+            id="change"
+            placeholder="inside-out, base layer, different seam, cooler room…"
+          ></textarea></label
+        ><button id="make">Make observation card</button
+        ><button onclick="print()">Print / save PDF</button>
+      </section>
+      <section id="result" class="verdict" aria-live="polite">
+        <p>No card yet.</p>
+      </section>
+      <section class="prose">
+        <h2>Safety and scope</h2>
+        <p>
+          This does not screen for autism, ADHD, sensory processing disorder,
+          allergy or pain disease. Stop testing anything that causes harm. New
+          or persistent rash, burning, numbness or pain deserves appropriate
+          clinical assessment.
+        </p>
+        <a href="/exhibitions/fabric-sensory-world/"
+          >Return to the evidence exhibition →</a
+        >
+      </section>
+    <section class="next-actions piece-links" aria-label="Where this tool belongs"><a class="download" href="/exhibitions/fabric-sensory-world/">Read the story this tool belongs to →</a><a class="download" href="/gallery/aan-f-003/">Open the gallery page →</a><a class="download" href="https://rn-selected-work.vercel.app/sources/aan-f/aan-f-003">Sources and image credits →</a></section></main>
+    <script src="/data.js"></script>
+    <script src="/app.js"></script>
+    <script>
+      const garmentInput = document.getElementById("garment");
+      const siteInput = document.getElementById("site");
+      const contextSelect = document.getElementById("context");
+      const changeInput = document.getElementById("change");
+      const resultRegion = document.getElementById("result");
+      for (const id of ["surface", "pressure", "heat", "movement"]) {
+        const e = document.getElementById(id),
+          o = document.getElementById(id + "O");
+        e.oninput = () => (o.value = e.value);
+      }
+      document.getElementById("make").onclick = () => {
+        const feels =
+          [...document.querySelectorAll("input[type=checkbox]:checked")]
+            .map((x) => x.value)
+            .join(", ") || "not recorded";
+        const value = (id) => document.getElementById(id).value;
+        resultRegion.innerHTML = `<p class="kicker">OBSERVATION · NOT DIAGNOSIS</p><h2>${garmentInput.value || "Unnamed garment"}</h2><p><b>Body site:</b> ${siteInput.value || "not recorded"} · <b>Context:</b> ${contextSelect.value}</p><p><b>Surface</b> ${value("surface")}/10 · <b>Pressure</b> ${value("pressure")}/10 · <b>Heat</b> ${value("heat")}/10 · <b>Movement</b> ${value("movement")}/10</p><p><b>Experience:</b> ${feels}</p><p><b>One-variable test:</b> ${changeInput.value || "not recorded"}</p><p>Compare this garment on another day or change only one condition. A number here records one personal observation and applies to no one else.</p>`;
+      };
+    </script>
+  </body>
+</html>

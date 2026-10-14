@@ -1,0 +1,265 @@
+{
+  "timezone": "Pacific/Honolulu",
+  "site": "https://ask-a-neuroscientist-fashion.vercel.app",
+  "rule": "A piece is public only when releasedAt is a date on or before today in Pacific/Honolulu and hold is false. Every other piece is left out of the build, so its pages and files return 404. Dates come only from the repo's own records (production/publication-register.json) or rn-selected-work data/sources-*.json. A piece with no verifiable date keeps releasedAt empty and hold true.",
+  "fields": "id, releasedAt, hold, postUrls, longFormUrl, sourcePageUrl are the release record. package, packageTitle, type, title, route, image and paths tell the build what to emit. A file listed under several pieces is emitted only when every one of those pieces is released.",
+  "sourcePages": "Each piece links the rn-selected-work sources page for its package, https://rn-selected-work.vercel.app/sources/aan-f/aan-f-00N (id aan-f/aan-f-00N in rn-selected-work data/releases.json, added 2026-10-13). Piece ids here extend that id: aan-f/aan-f-00N/<piece>. verify-public.mjs requires the link on every released piece's gallery page, essay and lab tool.",
+  "sharedPublic": [
+    "index.html",
+    "404.html",
+    "exhibitions/index.html",
+    "lab/index.html",
+    "objects/index.html",
+    "evidence/index.html",
+    "ask/index.html",
+    "rights/index.html",
+    "method/index.html",
+    "media/index.html",
+    "media/media.js",
+    "media/p005-field-load-score.svg",
+    "app.js",
+    "data.js",
+    "style.css",
+    "enhancements.css",
+    "mobile-nav.css",
+    "robots.txt",
+    "production/publication-register.json",
+    "production/media-excavation.json",
+    "production/media-excavation-summary.csv",
+    "production/human-completion-packet.md",
+    "production/media-provenance-inventory.json"
+  ],
+  "pieces": [
+    {
+      "id": "aan-f/aan-f-001/essay",
+      "releasedAt": "2026-09-02",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/clothes-and-cognition/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-001",
+      "package": "AAN-F-001",
+      "packageTitle": "Clothes and Cognition",
+      "type": "essay",
+      "title": "Clothes and Cognition",
+      "paths": [
+        "exhibitions/clothes-and-cognition/index.html"
+      ],
+      "route": "/exhibitions/clothes-and-cognition/",
+      "image": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-002/essay",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/outfit-as-armor/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-002",
+      "package": "AAN-F-002",
+      "packageTitle": "Outfit as Armor",
+      "type": "essay",
+      "title": "Outfit as Armor",
+      "paths": [
+        "exhibitions/outfit-as-armor/index.html"
+      ],
+      "route": "/exhibitions/outfit-as-armor/",
+      "image": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-002/lab",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/outfit-as-armor/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-002",
+      "package": "AAN-F-002",
+      "packageTitle": "Outfit as Armor",
+      "type": "interactive tool",
+      "title": "Armor Pathway Mapper",
+      "paths": [
+        "lab/armor/index.html",
+        "production/package-002-field-notes.md"
+      ],
+      "route": "/lab/armor/",
+      "dateSource": "production/publication-register.json web_publication_date (interactive: live; added in the same commit as the essay)"
+    },
+    {
+      "id": "aan-f/aan-f-003/essay",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fabric-sensory-world/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-003",
+      "package": "AAN-F-003",
+      "packageTitle": "The Sensory Textile Room",
+      "type": "essay",
+      "title": "The Sensory Textile Room",
+      "paths": [
+        "exhibitions/fabric-sensory-world/index.html",
+        "production/package-003-rights.csv"
+      ],
+      "route": "/exhibitions/fabric-sensory-world/",
+      "image": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-003/lab",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fabric-sensory-world/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-003",
+      "package": "AAN-F-003",
+      "packageTitle": "The Sensory Textile Room",
+      "type": "interactive tool",
+      "title": "Sensory Textile Field Map",
+      "paths": [
+        "lab/textile-sensory-map/index.html"
+      ],
+      "route": "/lab/textile-sensory-map/",
+      "dateSource": "production/publication-register.json web_publication_date (interactive: live; added in the same commit as the essay)"
+    },
+    {
+      "id": "aan-f/aan-f-004/essay",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fashion-nostalgia/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-004",
+      "package": "AAN-F-004",
+      "packageTitle": "The Memory Wardrobe",
+      "type": "essay",
+      "title": "The Memory Wardrobe",
+      "paths": [
+        "exhibitions/fashion-nostalgia/index.html"
+      ],
+      "route": "/exhibitions/fashion-nostalgia/",
+      "image": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-004/lab",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fashion-nostalgia/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-004",
+      "package": "AAN-F-004",
+      "packageTitle": "The Memory Wardrobe",
+      "type": "interactive tool",
+      "title": "Memory Garment Field Map",
+      "paths": [
+        "lab/memory-garment-map/index.html"
+      ],
+      "route": "/lab/memory-garment-map/",
+      "dateSource": "production/publication-register.json web_publication_date (interactive: live; added in the same commit as the essay)"
+    },
+    {
+      "id": "aan-f/aan-f-005/essay",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fashion-week-nervous-system/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-005",
+      "package": "AAN-F-005",
+      "packageTitle": "The Fashion Week Nervous System",
+      "type": "essay",
+      "title": "The Fashion Week Nervous System",
+      "paths": [
+        "exhibitions/fashion-week-nervous-system/index.html",
+        "production-kits/aan-f-005/media/f-runway-pexels.jpg"
+      ],
+      "route": "/exhibitions/fashion-week-nervous-system/",
+      "image": "https://ask-a-neuroscientist-fashion.vercel.app/production-kits/aan-f-005/media/f-runway-pexels.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-005/lab",
+      "releasedAt": "2026-09-03",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fashion-week-nervous-system/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-005",
+      "package": "AAN-F-005",
+      "packageTitle": "The Fashion Week Nervous System",
+      "type": "interactive tool",
+      "title": "Field Load and Recovery Mapper",
+      "paths": [
+        "lab/field-load-recovery/index.html"
+      ],
+      "route": "/lab/field-load-recovery/",
+      "dateSource": "production/publication-register.json web_publication_date (interactive: live; added in the same commit as the essay)"
+    },
+    {
+      "id": "aan-f/aan-f-006/essay",
+      "releasedAt": "2026-09-04",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/runway-soundtracks/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-006",
+      "package": "AAN-F-006",
+      "packageTitle": "The Listening Room",
+      "type": "essay",
+      "title": "The Listening Room",
+      "paths": [
+        "exhibitions/runway-soundtracks/index.html"
+      ],
+      "route": "/exhibitions/runway-soundtracks/",
+      "image": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-006/lab",
+      "releasedAt": "2026-09-04",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/runway-soundtracks/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-006",
+      "package": "AAN-F-006",
+      "packageTitle": "The Listening Room",
+      "type": "interactive tool",
+      "title": "Runway Sound Map",
+      "paths": [
+        "lab/runway-sound-map/index.html"
+      ],
+      "route": "/lab/runway-sound-map/",
+      "dateSource": "production/publication-register.json web_publication_date (interactive: live; added in the same commit as the essay)"
+    },
+    {
+      "id": "aan-f/aan-f-007/essay",
+      "releasedAt": "2026-09-07",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/uniforms-and-social-perception/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-007",
+      "package": "AAN-F-007",
+      "packageTitle": "The Role Room",
+      "type": "essay",
+      "title": "The Role Room",
+      "paths": [
+        "exhibitions/uniforms-and-social-perception/index.html"
+      ],
+      "route": "/exhibitions/uniforms-and-social-perception/",
+      "image": "https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a%E2%80%93cf_F.jpg",
+      "dateSource": "production/publication-register.json web_publication_date"
+    },
+    {
+      "id": "aan-f/aan-f-007/lab",
+      "releasedAt": "2026-09-07",
+      "hold": false,
+      "postUrls": [],
+      "longFormUrl": "https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/uniforms-and-social-perception/",
+      "sourcePageUrl": "https://rn-selected-work.vercel.app/sources/aan-f/aan-f-007",
+      "package": "AAN-F-007",
+      "packageTitle": "The Role Room",
+      "type": "interactive tool",
+      "title": "Uniform Encounter Map",
+      "paths": [
+        "lab/uniform-encounter-map/index.html"
+      ],
+      "route": "/lab/uniform-encounter-map/",
+      "dateSource": "production/publication-register.json web_publication_date (interactive: live; added in the same commit as the essay)"
+    }
+  ]
+}
