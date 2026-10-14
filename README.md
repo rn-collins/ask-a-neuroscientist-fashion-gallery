@@ -41,7 +41,7 @@ node configure-hostname.mjs example.org          # rewrite the canonical host in
 python3 -m http.server 8000 --directory dist
 ```
 
-`npm run build:public` runs [`scripts/build-public.mjs`](scripts/build-public.mjs), which writes `dist/`, and [`scripts/verify-public.mjs`](scripts/verify-public.mjs), which fails if a held file is present, a released piece is missing or lacks its links, a public file points at a file that is not public, or a released page contains a dash or an exclamation mark. `vercel.json` sets the same command for deployment.
+`npm run build:public` runs [`scripts/build-public.mjs`](scripts/build-public.mjs), which writes `dist/`, and [`scripts/verify-public.mjs`](scripts/verify-public.mjs), which fails if a held file is present, a released piece is missing or lacks its links, a public file points at a file that is not public, the sitemap, a canonical link, an `og:url` or an internal link does not match how `vercel.json` serves pages (`trailingSlash: true`, so every page URL ends in a slash and none redirects; see [`scripts/check-urls.mjs`](scripts/check-urls.mjs)), or a released page contains a dash or an exclamation mark. `vercel.json` sets the same command for deployment.
 
 `npm test` runs [`scripts/public-tests.mjs`](scripts/public-tests.mjs). It checks the routes, the 22 object records and their accession numbers, the claim filter, each exhibition and tool, the correction channel, page structure and alt text, static and runtime metadata, the Content Security Policy, the provenance record and its hashes, and the release gate itself (a build before a piece's date, on its date, and with `hold` set to `true`).
 

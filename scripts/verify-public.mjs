@@ -1,9 +1,10 @@
 // Checks dist/ against data/releases.json after build-public.mjs.
 // Fails if any unreleased piece's file is present, if a released piece is
 // missing or lacks its links, or if a public file points at a file that is
-// not public.
+// not public. It also runs the URL check (sitemap, canonical and links against vercel.json).
 import fs from "node:fs";
 import path from "node:path";
+import { checkUrls } from "./check-urls.mjs";
 
 const OUT = "dist";
 const releases = JSON.parse(fs.readFileSync("data/releases.json", "utf8"));
@@ -110,6 +111,10 @@ for (const piece of released.filter((p) => p.route)) {
 }
 // Claim text from data.js renders inside the released essays.
 if (has("data.js") && /[–—]/.test(read("data.js").replace(/https?:\/\/[^\s"']+/g, ""))) errors.push("data.js contains an em or en dash outside a URL");
+
+// 6. The sitemap, canonical links, og:url, JSON-LD and internal page links match how vercel.json serves
+// pages (no redirect) and name only pages that were built. See scripts/check-urls.mjs.
+errors.push(...(await checkUrls(OUT)));
 
 if (errors.length) {
   console.error(`Public build check FAILED (${errors.length}):\n  ${errors.join("\n  ")}`);

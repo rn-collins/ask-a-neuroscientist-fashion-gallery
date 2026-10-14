@@ -14,9 +14,9 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import os from "node:os";
-import http from "node:http";
 import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
+import { checkUrls, selfCheck, vercelLikeServer } from "./check-urls.mjs";
 
 let checks = 0;
 const ok = (condition, message) => {
@@ -169,6 +169,8 @@ for (const file of routeFiles) {
     ["twitter:description", /<meta[^>]+name=["']twitter:description["'][^>]+content=["'][^"']+["']/i],
     ["twitter:image", /<meta[^>]+name=["']twitter:image["'][^>]+content=["'][^"']+["']/i],
     ["twitter:image:alt", /<meta[^>]+name=["']twitter:image:alt["'][^>]+content=["'][^"']+["']/i],
+    ["favicon.svg", /<link[^>]+rel=["']icon["'][^>]+href=["']\/favicon\.svg["']/i],
+    ["favicon.ico", /<link[^>]+rel=["']icon["'][^>]+href=["']\/favicon\.ico["']/i],
   ]) ok(re.test(html), `${file} lacks static ${label}`);
   for (const m of html.matchAll(/(?:src|href|content)=["'](\/[^"'#?]+\.(?:png|jpe?g|webp|gif|svg))["']/gi))
     ok(fs.existsSync(m[1].slice(1)) && fs.statSync(m[1].slice(1)).size > 0, `${file} references missing local asset ${m[1]}`);
@@ -232,22 +234,18 @@ ok(register.packages.length === 7 && register.packages.every((p) => p.author !==
 {
   const routeMap = new Map([["/", "index.html"]]);
   for (const f of routeFiles.filter((x) => x !== "index.html" && x.endsWith("index.html"))) routeMap.set("/" + f.replace(/\/index\.html$/, ""), f);
-  const server = http.createServer((req, res) => {
-    const clean = (req.url || "/").replace(/\/$/, "") || "/";
-    const file = routeMap.get(clean);
-    res.writeHead(file ? 200 : 404, { "content-type": "text/html; charset=utf-8" });
-    res.end(fs.readFileSync(file || "404.html"));
-  });
+  // Served the way Vercel does it: cleanUrls, with trailingSlash read from vercel.json.
+  const server = vercelLikeServer(".", { trailingSlash: JSON.parse(read("vercel.json")).trailingSlash === true });
   await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
   try {
     const origin = `http://127.0.0.1:${server.address().port}`;
     for (const route of routeMap.keys()) {
-      const response = await fetch(origin + route);
+      const response = await fetch(origin + (route === "/" ? route : `${route}/`), { redirect: "manual" });
       ok(response.status === 200, `HTTP ${response.status} ${route}`);
       const html = await response.text();
       ok(html.includes("<main") && html.includes("<h1"), `DOM smoke failed ${route}`);
     }
-    ok((await fetch(origin + "/not-a-room")).status === 404, "HTTP 404 route failed");
+    ok((await fetch(origin + "/not-a-room/")).status === 404, "HTTP 404 route failed");
   } finally {
     await new Promise((resolve) => server.close(resolve));
   }
@@ -281,6 +279,10 @@ ok(register.packages.length === 7 && register.packages.every((p) => p.author !==
     ok(day.status === 0, `build for ${first} failed: ${day.stderr}`);
     for (const piece of releases.pieces) for (const f of piece.paths)
       ok(fs.existsSync(path.join(tmp, "dist", f)) === (piece.releasedAt <= first), `${f} has the wrong state on ${first}`);
+    // The sitemap, canonical links and internal links of a partial build must name built pages in the
+    // spelling vercel.json serves (no redirect), on the first day and, below, after the last release.
+    const dayProblems = await checkUrls(path.join(tmp, "dist"));
+    ok(!dayProblems.length, `URL check failed for the build on ${first}: ${dayProblems.slice(0, 5).join("; ")}`);
 
     // 3. hold: true withholds a piece whatever its date.
     const heldCopy = JSON.parse(read("data/releases.json"));
@@ -291,6 +293,27 @@ ok(register.packages.length === 7 && register.packages.every((p) => p.author !==
     ok(held.status === 0, `build with a held piece failed: ${held.stderr}`);
     ok(!fs.existsSync(path.join(tmp, "dist", target.paths[0])), `${target.paths[0]} is public although hold is true`);
     ok(!read(path.join(tmp, "dist/sitemap.xml")).includes(target.route), "sitemap lists a held piece");
+    const heldProblems = await checkUrls(path.join(tmp, "dist"));
+    ok(!heldProblems.length, `URL check failed with a held piece: ${heldProblems.slice(0, 5).join("; ")}`);
+
+    // 4. After every release date the full public build must also be redirect-free, and the check must be able to fail.
+    fs.writeFileSync(path.join(tmp, "data/releases.json"), JSON.stringify(JSON.parse(read("data/releases.json")), null, 2));
+    const all = build(tmp, "2099-01-01");
+    ok(all.status === 0, `build for 2099-01-01 failed: ${all.stderr}`);
+    const allProblems = await checkUrls(path.join(tmp, "dist"));
+    ok(!allProblems.length, `URL check failed for the full build: ${allProblems.slice(0, 5).join("; ")}`);
+    const broken = await selfCheck();
+    ok(!broken.length, `the URL check does not catch what it should: ${broken.join("; ")}`);
+    ok(JSON.parse(read("vercel.json")).trailingSlash === true, "vercel.json trailingSlash changed; re-read scripts/check-urls.mjs before relying on the URL check");
+    // Every public page, the 404 page included, carries the favicon tags, and the files exist.
+    for (const f of ["favicon.svg", "favicon.ico"]) ok(fs.existsSync(path.join(tmp, "dist", f)) && fs.statSync(path.join(tmp, "dist", f)).size > 0, `dist/${f} is missing`);
+    ok(fs.readFileSync(path.join(tmp, "dist/favicon.ico")).readUInt16LE(2) === 1, "dist/favicon.ico is not an icon file");
+    ok(/^<svg[\s>]/.test(read(path.join(tmp, "dist/favicon.svg")).trim()) && !/<(?:image|script)\b|href=/.test(read(path.join(tmp, "dist/favicon.svg"))), "dist/favicon.svg must be a self-contained SVG");
+    const pages = [];
+    const walkHtml = (dir) => { for (const e of fs.readdirSync(dir, { withFileTypes: true })) { const full = path.join(dir, e.name); if (e.isDirectory()) walkHtml(full); else if (e.name.endsWith(".html")) pages.push(full); } };
+    walkHtml(path.join(tmp, "dist"));
+    ok(pages.length > 30, "expected the built pages and 404.html");
+    for (const page of pages) ok(read(page).includes('<link rel="icon" href="/favicon.svg" type="image/svg+xml">') && read(page).includes('<link rel="icon" href="/favicon.ico" sizes="32x32">'), `${path.relative(tmp, page)} lacks the favicon link tags`);
   } finally {
     fs.rmSync(tmp, { recursive: true, force: true });
   }

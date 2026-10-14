@@ -33,7 +33,7 @@ const SHINGLE = 10; // consecutive words that must match for held body text to c
 // Folders and files of the private repository that are never exported. Their text and media
 // feed the leak check as the "held" corpus.
 const INTERNAL_DIRS = ["production-kits", "deliverables", "research"];
-const SCRIPTS_EXPORTED = ["build-public.mjs", "verify-public.mjs", "export-public.mjs", "public-tests.mjs"];
+const SCRIPTS_EXPORTED = ["build-public.mjs", "verify-public.mjs", "export-public.mjs", "public-tests.mjs", "check-urls.mjs"];
 
 const die = (message) => { console.error(`export-public: ${message}`); process.exit(1); };
 const rel = (p) => p.split(path.sep).join("/");

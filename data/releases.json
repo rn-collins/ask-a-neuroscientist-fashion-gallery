@@ -23,6 +23,8 @@
     "enhancements.css",
     "mobile-nav.css",
     "robots.txt",
+    "favicon.svg",
+    "favicon.ico",
     "production/publication-register.json",
     "production/media-excavation.json",
     "production/media-excavation-summary.csv",
